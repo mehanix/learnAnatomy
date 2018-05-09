@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+
+public class ShowBoneInfo : MonoBehaviour {
+
+	public BoneDbHandler db;
+	public Text boneName;
+	public Text description;
+	public int id;
+	string sceneName;
+	void Start() {
+		
+		db = GameObject.FindGameObjectWithTag("GameManager").GetComponent<BoneDbHandler> ();
+
+		boneName = GameObject.FindGameObjectWithTag("boneNameText").GetComponent<Text>();
+		if(GameObject.FindGameObjectWithTag ("descriptionText")!=null)
+			description = GameObject.FindGameObjectWithTag ("descriptionText").GetComponent<Text>();
+		sceneName = SceneManager.GetActiveScene ().name;
+		
+	}
+
+
+	void OnMouseDown(){
+		if (sceneName == "playScene") {
+			boneName.text = db.bonesArray.boneEntries [id].boneName;
+			description.text = db.bonesArray.boneEntries [id].description;	
+		}
+	
+	}
+
+	void OnMouseEnter() {
+		if (sceneName == "playScene") {
+			boneName.text = db.bonesArray.boneEntries [id].boneName;
+		}
+	}
+}
