@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControlFocalPoint : MonoBehaviour {
 
 	Vector3 poz = new Vector3 ();
-	float speed = 10f;
+	 float speed = 35f;
 	Rigidbody rb;
 	// Use this for initialization
 	void Start () {

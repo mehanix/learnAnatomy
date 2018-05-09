@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class pickBoneGameManager : MonoBehaviour {
 
 	bool[] avaliableQuestions = new bool[150];
-	public static MeshRenderer[] currentWrongBones = new MeshRenderer[150];
+	public static GameObject[] currentWrongBones = new GameObject[150];
 	static int wrongBonesCount=0;
 	public BoneDbHandler db;
 	int questionIndex=1;
@@ -28,7 +28,7 @@ public class pickBoneGameManager : MonoBehaviour {
 	public static void addWrongBone(GameObject bone)
 	{
 		wrongBonesCount++;
-		currentWrongBones [wrongBonesCount] = bone.GetComponent<MeshRenderer> ();
+		currentWrongBones [wrongBonesCount] = bone;
 
 	}
 
@@ -36,7 +36,7 @@ public class pickBoneGameManager : MonoBehaviour {
 	{
 		for(int i=1;i<=wrongBonesCount;i++){
 		
-			currentWrongBones[i].material.color = Color.white;
+			currentWrongBones[i].GetComponent<MeshRenderer>().material.color = Color.white;
 
 		}
 		wrongBonesCount = 0;

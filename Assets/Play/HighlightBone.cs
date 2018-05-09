@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class HighlightBone : MonoBehaviour {
 
 	//When the mouse hovers over the GameObject, it turns to this color (red)
@@ -11,6 +11,7 @@ public class HighlightBone : MonoBehaviour {
 	//Get the GameObject’s mesh renderer to access the GameObject’s material and color
 	MeshRenderer m_Renderer;
 	public GameManager gm;
+	string sceneName;
 	void Start()
 	{
 		//Fetch the mesh renderer component from the GameObject
@@ -19,6 +20,7 @@ public class HighlightBone : MonoBehaviour {
 			//Fetch the original color of the GameObject
 			m_OriginalColor = m_Renderer.material.color;
 		}
+		sceneName = SceneManager.GetActiveScene ().name;
 		gm = GameObject.FindWithTag ("GameManager").GetComponent<GameManager>();
 	}
 
@@ -38,6 +40,7 @@ public class HighlightBone : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		if(sceneName=="playScene" && )
 		gm.cameraFocusPoint.transform.position = gameObject.transform.position;
 	}
 }

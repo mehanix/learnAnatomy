@@ -46,7 +46,7 @@ public class onBoneClick : MonoBehaviour {
 			scoreText.text = "Scor: " + pickBoneGameManager.score;
 
 			//culoarea
-			m_Renderer.material.color = m_green;
+			changeBoneColor(Color.green);
 			pickBoneGameManager.resetWrongBones ();
 
 			//facut manevra la buton
@@ -55,7 +55,12 @@ public class onBoneClick : MonoBehaviour {
 
 		} else {
 			pickBoneGameManager.addWrongBone (gameObject);
-			m_Renderer.material.color = m_red;
+			changeBoneColor(Color.red);
 		}
+	}
+
+	public void changeBoneColor(Color c)
+	{
+		m_Renderer.material.color = c;
 	}
 }

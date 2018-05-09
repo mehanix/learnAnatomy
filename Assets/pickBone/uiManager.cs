@@ -31,4 +31,11 @@ public class uiManager : MonoBehaviour {
 	{
 		SceneManager.LoadScene ("menu");
 	}
+
+	public void showCorrectBone()
+	{
+
+		pickBoneGameManager.currentWrongBones [pickBoneGameManager.currentBoneId].GetComponent<MeshRenderer> ().material.color = Color.yellow;
+		
+	}
 }
