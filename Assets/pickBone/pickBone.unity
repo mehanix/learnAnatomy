@@ -38,11 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465788, g: 0.4964133, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -77,17 +77,19 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFiltering: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousColorSigma: 1
-    m_PVRFilteringAtrousNormalSigma: 1
-    m_PVRFilteringAtrousPositionSigma: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -236,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &17764848
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +372,7 @@ GameObject:
   - component: {fileID: 31231248}
   - component: {fileID: 31231247}
   - component: {fileID: 31231246}
+  - component: {fileID: 31231249}
   m_Layer: 0
   m_Name: Left_trapezoid
   m_TagString: Block
@@ -445,6 +449,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 31231244}
   m_Mesh: {fileID: 4300348, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &31231249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 31231244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300348, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &39118175
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +474,7 @@ GameObject:
   - component: {fileID: 39118179}
   - component: {fileID: 39118178}
   - component: {fileID: 39118177}
+  - component: {fileID: 39118180}
   m_Layer: 0
   m_Name: Left_triquetral
   m_TagString: Block
@@ -531,6 +550,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 39118175}
+  m_Mesh: {fileID: 4300346, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &39118180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 39118175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300346, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &49825250
 GameObject:
@@ -620,6 +653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &52092668
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &62485870
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &72764906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &84786750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1052,7 @@ GameObject:
   - component: {fileID: 84786754}
   - component: {fileID: 84786753}
   - component: {fileID: 84786752}
+  - component: {fileID: 84786755}
   m_Layer: 0
   m_Name: Left_capitate
   m_TagString: Block
@@ -1090,6 +1128,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84786750}
+  m_Mesh: {fileID: 4300360, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &84786755
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84786750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300360, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &87509616
 GameObject:
@@ -1219,6 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &93385970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &106584648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,6 +1685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &126223710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,6 +1814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &128638957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,6 +1985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &129318681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +1997,7 @@ GameObject:
   - component: {fileID: 129318685}
   - component: {fileID: 129318684}
   - component: {fileID: 129318683}
+  - component: {fileID: 129318686}
   m_Layer: 0
   m_Name: Right_lunate
   m_TagString: Block
@@ -2015,6 +2073,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129318681}
+  m_Mesh: {fileID: 4300228, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &129318686
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129318681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300228, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &133170970
 GameObject:
@@ -2144,6 +2216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &134757148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,6 +2345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &154553981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,7 +2405,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
+  m_Convex: 0
   m_InflateMesh: 1
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300306, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
@@ -2400,6 +2474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &163296481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,6 +2671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &189352724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &212957686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,6 +2906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &213748869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +3035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &215770655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,6 +3164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &229900962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3213,6 +3293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &241758351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3341,6 +3422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &257352634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,6 +3551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &259697389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3597,6 +3680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &263043470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,6 +3809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &266167901
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,6 +3938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &279314677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3981,6 +4067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &286167885
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,6 +4179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &304612293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4220,6 +4308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &313190821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4231,6 +4320,7 @@ GameObject:
   - component: {fileID: 313190825}
   - component: {fileID: 313190824}
   - component: {fileID: 313190823}
+  - component: {fileID: 313190826}
   m_Layer: 0
   m_Name: Left_pisiform
   m_TagString: Block
@@ -4306,6 +4396,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 313190821}
+  m_Mesh: {fileID: 4300354, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &313190826
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 313190821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300354, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &360488735
 GameObject:
@@ -4435,6 +4539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &365039207
 GameObject:
   m_ObjectHideFlags: 0
@@ -4563,6 +4668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &373440051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,6 +4826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &385602970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,6 +4955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &385711340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,6 +5084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &388168523
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,6 +5196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &400351733
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,6 +5325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &440825864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &447080385
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,6 +5543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &449696373
 GameObject:
   m_ObjectHideFlags: 0
@@ -5559,6 +5672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &457876970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5687,6 +5801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &481438679
 GameObject:
   m_ObjectHideFlags: 0
@@ -5815,6 +5930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &489279768
 GameObject:
   m_ObjectHideFlags: 0
@@ -5943,6 +6059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &493400473
 GameObject:
   m_ObjectHideFlags: 0
@@ -6071,6 +6188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &510332325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,6 +6391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &531682146
 GameObject:
   m_ObjectHideFlags: 0
@@ -6401,6 +6520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &540878092
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,6 +6532,7 @@ GameObject:
   - component: {fileID: 540878096}
   - component: {fileID: 540878095}
   - component: {fileID: 540878094}
+  - component: {fileID: 540878097}
   m_Layer: 0
   m_Name: Left_trapezium
   m_TagString: Block
@@ -6487,6 +6608,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540878092}
+  m_Mesh: {fileID: 4300350, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &540878097
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540878092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300350, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &545685385
 GameObject:
@@ -6616,6 +6751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &553731978
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,6 +6880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &554115750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6872,6 +7009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &557453000
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,6 +7138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &566382872
 GameObject:
   m_ObjectHideFlags: 0
@@ -7140,6 +7279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &571714272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7268,6 +7408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &575850322
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,6 +7502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &596755299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7489,6 +7631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &615048253
 GameObject:
   m_ObjectHideFlags: 0
@@ -7617,6 +7760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &618441501
 GameObject:
   m_ObjectHideFlags: 0
@@ -7745,6 +7889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &621538520
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,6 +8018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &643108887
 GameObject:
   m_ObjectHideFlags: 0
@@ -8001,6 +8147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &644496376
 GameObject:
   m_ObjectHideFlags: 0
@@ -8129,6 +8276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &647275498
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,6 +8405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &651268936
 GameObject:
   m_ObjectHideFlags: 0
@@ -8385,6 +8534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &666641452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8513,6 +8663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &670196496
 GameObject:
   m_ObjectHideFlags: 0
@@ -8641,6 +8792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &671521794
 GameObject:
   m_ObjectHideFlags: 0
@@ -8769,6 +8921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &694676342
 GameObject:
   m_ObjectHideFlags: 0
@@ -8897,6 +9050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &697406418
 GameObject:
   m_ObjectHideFlags: 0
@@ -9099,6 +9253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &710637833
 GameObject:
   m_ObjectHideFlags: 0
@@ -9227,6 +9382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &722289428
 GameObject:
   m_ObjectHideFlags: 0
@@ -9355,6 +9511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &730371646
 GameObject:
   m_ObjectHideFlags: 0
@@ -9483,6 +9640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &748371325
 GameObject:
   m_ObjectHideFlags: 0
@@ -9494,6 +9652,7 @@ GameObject:
   - component: {fileID: 748371329}
   - component: {fileID: 748371328}
   - component: {fileID: 748371327}
+  - component: {fileID: 748371330}
   m_Layer: 0
   m_Name: Right_trapezium
   m_TagString: Block
@@ -9569,6 +9728,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748371325}
+  m_Mesh: {fileID: 4300222, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &748371330
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748371325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300222, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &753864042
 GameObject:
@@ -9754,6 +9927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &805669843
 GameObject:
   m_ObjectHideFlags: 0
@@ -10004,6 +10178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &837145039
 GameObject:
   m_ObjectHideFlags: 0
@@ -10132,6 +10307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &851599427
 GameObject:
   m_ObjectHideFlags: 0
@@ -10260,6 +10436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &855730626
 GameObject:
   m_ObjectHideFlags: 0
@@ -10388,6 +10565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &867343871
 GameObject:
   m_ObjectHideFlags: 0
@@ -10516,6 +10694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &868121560
 GameObject:
   m_ObjectHideFlags: 0
@@ -10644,6 +10823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &908719276
 GameObject:
   m_ObjectHideFlags: 0
@@ -10772,6 +10952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &920670632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10924,6 +11105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &938581017
 GameObject:
   m_ObjectHideFlags: 0
@@ -10935,6 +11117,7 @@ GameObject:
   - component: {fileID: 938581021}
   - component: {fileID: 938581020}
   - component: {fileID: 938581019}
+  - component: {fileID: 938581022}
   m_Layer: 0
   m_Name: Left_scaphoid
   m_TagString: Block
@@ -11010,6 +11193,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 938581017}
+  m_Mesh: {fileID: 4300352, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &938581022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 938581017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300352, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &944718659
 GameObject:
@@ -11139,6 +11336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &946601313
 GameObject:
   m_ObjectHideFlags: 0
@@ -11267,6 +11465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &948629153
 GameObject:
   m_ObjectHideFlags: 0
@@ -11395,6 +11594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &955800721
 GameObject:
   m_ObjectHideFlags: 0
@@ -11406,7 +11606,7 @@ GameObject:
   - component: {fileID: 955800724}
   - component: {fileID: 955800723}
   m_Layer: 5
-  m_Name: Text
+  m_Name: scoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11597,6 +11797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &991363774
 GameObject:
   m_ObjectHideFlags: 0
@@ -11790,6 +11991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &996501735
 GameObject:
   m_ObjectHideFlags: 0
@@ -11857,6 +12059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &997770062
 GameObject:
   m_ObjectHideFlags: 0
@@ -12013,6 +12216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1015787208
 GameObject:
   m_ObjectHideFlags: 0
@@ -12141,6 +12345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1022740902
 GameObject:
   m_ObjectHideFlags: 0
@@ -12345,6 +12550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1032286513
 GameObject:
   m_ObjectHideFlags: 0
@@ -12417,6 +12623,7 @@ MonoBehaviour:
   shouldSwitchQuestion: 0
   boneName: {fileID: 510332327}
   startBtnText: {fileID: 1022740904}
+  scoreText: {fileID: 955800723}
 --- !u!1 &1041893051
 GameObject:
   m_ObjectHideFlags: 0
@@ -12545,6 +12752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1042803895
 GameObject:
   m_ObjectHideFlags: 0
@@ -12556,6 +12764,7 @@ GameObject:
   - component: {fileID: 1042803899}
   - component: {fileID: 1042803898}
   - component: {fileID: 1042803897}
+  - component: {fileID: 1042803900}
   m_Layer: 0
   m_Name: Left_hamate
   m_TagString: Block
@@ -12631,6 +12840,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1042803895}
+  m_Mesh: {fileID: 4300358, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1042803900
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042803895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300358, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1068355259
 GameObject:
@@ -12760,6 +12983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1072516530
 GameObject:
   m_ObjectHideFlags: 0
@@ -12888,6 +13112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1076857083
 GameObject:
   m_ObjectHideFlags: 0
@@ -12981,6 +13206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1079565122
 GameObject:
   m_ObjectHideFlags: 0
@@ -13109,6 +13335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1080690909
 GameObject:
   m_ObjectHideFlags: 0
@@ -13237,6 +13464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1092126727
 GameObject:
   m_ObjectHideFlags: 0
@@ -13365,6 +13593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1103467114
 GameObject:
   m_ObjectHideFlags: 0
@@ -13493,6 +13722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1119406421
 GameObject:
   m_ObjectHideFlags: 0
@@ -13580,6 +13810,7 @@ GameObject:
   - component: {fileID: 1141987188}
   - component: {fileID: 1141987187}
   - component: {fileID: 1141987186}
+  - component: {fileID: 1141987189}
   m_Layer: 0
   m_Name: Right_trapezoid
   m_TagString: Block
@@ -13655,6 +13886,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1141987184}
+  m_Mesh: {fileID: 4300220, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1141987189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141987184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300220, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1143740371
 GameObject:
@@ -13784,6 +14029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1159636014
 GameObject:
   m_ObjectHideFlags: 0
@@ -13912,6 +14158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1164102242
 GameObject:
   m_ObjectHideFlags: 0
@@ -14040,6 +14287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1179568307
 GameObject:
   m_ObjectHideFlags: 0
@@ -14168,6 +14416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1180402948
 GameObject:
   m_ObjectHideFlags: 0
@@ -14296,6 +14545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1191943318
 GameObject:
   m_ObjectHideFlags: 0
@@ -14522,6 +14772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1206767401
 GameObject:
   m_ObjectHideFlags: 0
@@ -14650,6 +14901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1229206210
 GameObject:
   m_ObjectHideFlags: 0
@@ -14778,6 +15030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1230064532
 GameObject:
   m_ObjectHideFlags: 0
@@ -14789,6 +15042,7 @@ GameObject:
   - component: {fileID: 1230064536}
   - component: {fileID: 1230064535}
   - component: {fileID: 1230064534}
+  - component: {fileID: 1230064537}
   m_Layer: 0
   m_Name: Right_pisiform
   m_TagString: Block
@@ -14864,6 +15118,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1230064532}
+  m_Mesh: {fileID: 4300226, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1230064537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230064532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300226, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1232219641
 GameObject:
@@ -14993,6 +15261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1240731827
 GameObject:
   m_ObjectHideFlags: 0
@@ -15121,6 +15390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1273627450
 GameObject:
   m_ObjectHideFlags: 0
@@ -15249,6 +15519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1279829622
 GameObject:
   m_ObjectHideFlags: 0
@@ -15377,6 +15648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1315672497
 GameObject:
   m_ObjectHideFlags: 0
@@ -15627,6 +15899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1321502367
 GameObject:
   m_ObjectHideFlags: 0
@@ -15856,6 +16129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1338896597
 GameObject:
   m_ObjectHideFlags: 0
@@ -15984,6 +16258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1378785455
 GameObject:
   m_ObjectHideFlags: 0
@@ -16112,6 +16387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1386382266
 GameObject:
   m_ObjectHideFlags: 0
@@ -16240,6 +16516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1393606840
 GameObject:
   m_ObjectHideFlags: 0
@@ -16368,6 +16645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1395973024
 GameObject:
   m_ObjectHideFlags: 0
@@ -16496,6 +16774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1401478104
 GameObject:
   m_ObjectHideFlags: 0
@@ -16624,6 +16903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1406960765
 GameObject:
   m_ObjectHideFlags: 0
@@ -16752,6 +17032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1407946777
 GameObject:
   m_ObjectHideFlags: 0
@@ -16880,6 +17161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1410524704
 GameObject:
   m_ObjectHideFlags: 0
@@ -17013,6 +17295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1416419677
 GameObject:
   m_ObjectHideFlags: 0
@@ -17141,6 +17424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1420240313
 GameObject:
   m_ObjectHideFlags: 0
@@ -17269,6 +17553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1432543144
 GameObject:
   m_ObjectHideFlags: 0
@@ -17397,6 +17682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1432901220
 GameObject:
   m_ObjectHideFlags: 0
@@ -17525,6 +17811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1439325372
 GameObject:
   m_ObjectHideFlags: 0
@@ -17653,6 +17940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1478376686
 GameObject:
   m_ObjectHideFlags: 0
@@ -17781,6 +18069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1480151166
 GameObject:
   m_ObjectHideFlags: 0
@@ -17909,6 +18198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1513007659
 GameObject:
   m_ObjectHideFlags: 0
@@ -18037,6 +18327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1514991693
 GameObject:
   m_ObjectHideFlags: 0
@@ -18165,6 +18456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1516389061
 GameObject:
   m_ObjectHideFlags: 0
@@ -18293,6 +18585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1516947019
 GameObject:
   m_ObjectHideFlags: 0
@@ -18421,6 +18714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1521940596
 GameObject:
   m_ObjectHideFlags: 0
@@ -18549,6 +18843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1527811842
 GameObject:
   m_ObjectHideFlags: 0
@@ -18677,6 +18972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1532438929
 GameObject:
   m_ObjectHideFlags: 0
@@ -18805,6 +19101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1559032552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18933,6 +19230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1572856659
 GameObject:
   m_ObjectHideFlags: 0
@@ -19061,6 +19359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1572901663
 GameObject:
   m_ObjectHideFlags: 0
@@ -19189,6 +19488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1575358006
 GameObject:
   m_ObjectHideFlags: 0
@@ -19382,6 +19682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1588416853
 GameObject:
   m_ObjectHideFlags: 0
@@ -19525,6 +19826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1593857304
 GameObject:
   m_ObjectHideFlags: 0
@@ -19653,6 +19955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1596385439
 GameObject:
   m_ObjectHideFlags: 0
@@ -19781,6 +20084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1598285482
 GameObject:
   m_ObjectHideFlags: 0
@@ -19909,6 +20213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1606683663
 GameObject:
   m_ObjectHideFlags: 0
@@ -20037,6 +20342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1609131374
 GameObject:
   m_ObjectHideFlags: 0
@@ -20165,6 +20471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1637629214
 GameObject:
   m_ObjectHideFlags: 0
@@ -20176,6 +20483,7 @@ GameObject:
   - component: {fileID: 1637629218}
   - component: {fileID: 1637629217}
   - component: {fileID: 1637629216}
+  - component: {fileID: 1637629219}
   m_Layer: 0
   m_Name: Right_capitate
   m_TagString: Block
@@ -20251,6 +20559,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1637629214}
+  m_Mesh: {fileID: 4300232, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1637629219
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637629214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300232, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1644922168
 GameObject:
@@ -20380,6 +20702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1654464915
 GameObject:
   m_ObjectHideFlags: 0
@@ -20651,6 +20974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1682652465
 GameObject:
   m_ObjectHideFlags: 0
@@ -20779,6 +21103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1695478772
 GameObject:
   m_ObjectHideFlags: 0
@@ -20907,6 +21232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1705289059
 GameObject:
   m_ObjectHideFlags: 0
@@ -20997,6 +21323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1715382353
 GameObject:
   m_ObjectHideFlags: 0
@@ -21125,6 +21452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1739044362
 GameObject:
   m_ObjectHideFlags: 0
@@ -21356,6 +21684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1757715613
 GameObject:
   m_ObjectHideFlags: 0
@@ -21484,6 +21813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1771011294
 GameObject:
   m_ObjectHideFlags: 0
@@ -21612,6 +21942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1773091962
 GameObject:
   m_ObjectHideFlags: 0
@@ -21740,6 +22071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1781390357
 GameObject:
   m_ObjectHideFlags: 0
@@ -21868,6 +22200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1785643461
 GameObject:
   m_ObjectHideFlags: 0
@@ -21973,6 +22306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1790920187
 GameObject:
   m_ObjectHideFlags: 0
@@ -22101,6 +22435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1794459273
 GameObject:
   m_ObjectHideFlags: 0
@@ -22229,6 +22564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1806555755
 GameObject:
   m_ObjectHideFlags: 0
@@ -22319,6 +22655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1813075020
 GameObject:
   m_ObjectHideFlags: 0
@@ -22447,6 +22784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1835577713
 GameObject:
   m_ObjectHideFlags: 0
@@ -22575,6 +22913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1842335257
 GameObject:
   m_ObjectHideFlags: 0
@@ -22586,6 +22925,7 @@ GameObject:
   - component: {fileID: 1842335261}
   - component: {fileID: 1842335260}
   - component: {fileID: 1842335259}
+  - component: {fileID: 1842335262}
   m_Layer: 0
   m_Name: Right_scaphoid
   m_TagString: Block
@@ -22661,6 +23001,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842335257}
+  m_Mesh: {fileID: 4300224, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1842335262
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842335257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300224, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1846147126
 GameObject:
@@ -22790,6 +23144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1847929628
 GameObject:
   m_ObjectHideFlags: 0
@@ -22918,6 +23273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1857042526
 GameObject:
   m_ObjectHideFlags: 0
@@ -23007,6 +23363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1866217266
 GameObject:
   m_ObjectHideFlags: 0
@@ -23135,6 +23492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1879490301
 GameObject:
   m_ObjectHideFlags: 0
@@ -23263,6 +23621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1899235250
 GameObject:
   m_ObjectHideFlags: 0
@@ -23391,6 +23750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1909092776
 GameObject:
   m_ObjectHideFlags: 0
@@ -23519,6 +23879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1915787847
 GameObject:
   m_ObjectHideFlags: 0
@@ -23530,6 +23891,7 @@ GameObject:
   - component: {fileID: 1915787851}
   - component: {fileID: 1915787850}
   - component: {fileID: 1915787849}
+  - component: {fileID: 1915787852}
   m_Layer: 0
   m_Name: Right_hamate
   m_TagString: Block
@@ -23605,6 +23967,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1915787847}
+  m_Mesh: {fileID: 4300230, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1915787852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1915787847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300230, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1925889675
 GameObject:
@@ -23734,6 +24110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1931546287
 GameObject:
   m_ObjectHideFlags: 0
@@ -23862,6 +24239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1931855600
 GameObject:
   m_ObjectHideFlags: 0
@@ -23990,6 +24368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1932744282
 GameObject:
   m_ObjectHideFlags: 0
@@ -24118,6 +24497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1956708576
 GameObject:
   m_ObjectHideFlags: 0
@@ -24251,6 +24631,7 @@ GameObject:
   - component: {fileID: 1957298698}
   - component: {fileID: 1957298697}
   - component: {fileID: 1957298696}
+  - component: {fileID: 1957298699}
   m_Layer: 0
   m_Name: Right_triquetral
   m_TagString: Block
@@ -24326,6 +24707,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1957298694}
+  m_Mesh: {fileID: 4300218, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &1957298699
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957298694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300218, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &1959280108
 GameObject:
@@ -24520,6 +24915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1999650845
 GameObject:
   m_ObjectHideFlags: 0
@@ -24648,6 +25044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2004591121
 GameObject:
   m_ObjectHideFlags: 0
@@ -24659,6 +25056,7 @@ GameObject:
   - component: {fileID: 2004591125}
   - component: {fileID: 2004591124}
   - component: {fileID: 2004591123}
+  - component: {fileID: 2004591126}
   m_Layer: 0
   m_Name: Left_lunate
   m_TagString: Block
@@ -24734,6 +25132,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2004591121}
+  m_Mesh: {fileID: 4300356, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!64 &2004591126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004591121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300356, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
 --- !u!1 &2017208748
 GameObject:
@@ -24863,6 +25275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2037110748
 GameObject:
   m_ObjectHideFlags: 0
@@ -24991,6 +25404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2049255557
 GameObject:
   m_ObjectHideFlags: 0
@@ -25081,6 +25495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2052165138
 GameObject:
   m_ObjectHideFlags: 0
@@ -25209,6 +25624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2060957172
 GameObject:
   m_ObjectHideFlags: 0
@@ -25337,6 +25753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2076651792
 GameObject:
   m_ObjectHideFlags: 0
@@ -25465,6 +25882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2083327630
 GameObject:
   m_ObjectHideFlags: 0
@@ -25593,6 +26011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2087850149
 GameObject:
   m_ObjectHideFlags: 0
@@ -25721,6 +26140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2098870708
 GameObject:
   m_ObjectHideFlags: 0
@@ -25849,6 +26269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2106638236
 GameObject:
   m_ObjectHideFlags: 0
@@ -25977,6 +26398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2113002110
 GameObject:
   m_ObjectHideFlags: 0
@@ -26105,6 +26527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2126728177
 GameObject:
   m_ObjectHideFlags: 0
@@ -26233,6 +26656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2129862038
 GameObject:
   m_ObjectHideFlags: 0
@@ -26361,6 +26785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2138062915
 GameObject:
   m_ObjectHideFlags: 0
@@ -26489,6 +26914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2144634765
 GameObject:
   m_ObjectHideFlags: 0
@@ -26617,3 +27043,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 955800723}
+  m_OriginalColor: {r: 0, g: 0, b: 0, a: 0}

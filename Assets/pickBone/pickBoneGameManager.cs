@@ -6,21 +6,36 @@ using UnityEngine.UI;
 public class pickBoneGameManager : MonoBehaviour {
 
 	bool[] avaliableQuestions = new bool[150];
-	public static GameObject[] currentWrongBones = new GameObject[150];
+	public static GameObject[] currentWrongBones = new GameObject[200];
+
+	public static GameObject[] bonesArray = new GameObject[200];
+
 	static int wrongBonesCount=0;
 	public BoneDbHandler db;
 	int questionIndex=1;
-	bool gameInProgress=false;
+	public static bool gameInProgress=false;
 	public bool shouldSwitchQuestion=false;
 	public Text boneName;
 	public static int currentBoneId;
 	public static int score=0;
+	public static bool correctBoneClicked=false;
 	public Text startBtnText;
+	public Text scoreText;
+
 
 	// Use this for initialization
 	void Start () {
 
 		db = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<BoneDbHandler> ();
+		GameObject[] tempBonesArray = GameObject.FindGameObjectsWithTag ("Block");
+		GameObject aux;
+		for (int i = 0; i < tempBonesArray.Length; i++) {
+		
+			int properPos = tempBonesArray [i].GetComponent<ShowBoneInfo> ().id;
+			bonesArray [properPos] = tempBonesArray [i];
+
+		}
+
 
 		score = 0;
 	}
@@ -36,7 +51,7 @@ public class pickBoneGameManager : MonoBehaviour {
 	{
 		for(int i=1;i<=wrongBonesCount;i++){
 		
-			currentWrongBones[i].GetComponent<MeshRenderer>().material.color = Color.white;
+			currentWrongBones [i].GetComponent<MeshRenderer> ().material.color = currentWrongBones [i].GetComponent<onBoneClick> ().m_OriginalColor;
 
 		}
 		wrongBonesCount = 0;
@@ -61,6 +76,7 @@ public class pickBoneGameManager : MonoBehaviour {
 			//reset facut toate intrebarile available
 			for (int i = 1; i <= 102; i++)
 				avaliableQuestions [i] = true;
+
 			questionIndex = 1;
 			gameInProgress = true;
 			shouldSwitchQuestion = true;
@@ -69,6 +85,15 @@ public class pickBoneGameManager : MonoBehaviour {
 		} else {
 			gameInProgress = false;
 			startBtnText.text = "Start";
+			score = 0;
+			scoreText.text = "Scor: 0";
+			GameObject[] aux = GameObject.FindGameObjectsWithTag ("Block");
+			foreach (GameObject go in aux) {
+
+				go.GetComponent<MeshRenderer> ().material.color = onBoneClick.m_defaultBoneColor;
+					go.GetComponent<MeshCollider> ().enabled = true;
+			}
+
 		}
 	}
 

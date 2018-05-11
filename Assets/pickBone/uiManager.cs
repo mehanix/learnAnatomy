@@ -12,6 +12,8 @@ public class uiManager : MonoBehaviour {
 	void Start()
 	{
 		gm = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<pickBoneGameManager> ();
+
+
 	}
 
 	public void startGame()
@@ -23,7 +25,7 @@ public class uiManager : MonoBehaviour {
 	{
 		gm.shouldSwitchQuestion = true;
 		pickBoneGameManager.resetWrongBones ();
-
+		pickBoneGameManager.correctBoneClicked = false;
 		skipBtnText.text = "Sari";
 	}
 
@@ -34,8 +36,11 @@ public class uiManager : MonoBehaviour {
 
 	public void showCorrectBone()
 	{
+		Debug.Log (pickBoneGameManager.currentBoneId.ToString ());
+		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<MeshRenderer> ().material.color = Color.yellow;
+		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<MeshCollider> ().enabled = false;
 
-		pickBoneGameManager.currentWrongBones [pickBoneGameManager.currentBoneId].GetComponent<MeshRenderer> ().material.color = Color.yellow;
-		
+		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<onBoneClick>().m_OriginalColor = Color.yellow;
+	
 	}
 }

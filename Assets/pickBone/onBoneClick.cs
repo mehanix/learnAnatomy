@@ -17,7 +17,8 @@ public class onBoneClick : MonoBehaviour {
 	MeshRenderer m_Renderer;
 	Color m_green = Color.green;
 	Color m_red = Color.red;
-	Color m_OriginalColor;
+	public static Color m_defaultBoneColor;
+	public Color m_OriginalColor;
 	public static Text skipBtnText;
 
 
@@ -29,6 +30,11 @@ public class onBoneClick : MonoBehaviour {
 			m_OriginalColor = m_Renderer.material.color;
 
 		}
+		try {
+			m_defaultBoneColor = m_Renderer.material.color;
+		} catch { } ;
+
+			
 		skipBtnText = GameObject.FindGameObjectWithTag ("skipButtonText").GetComponent<Text> ();
 	}
 	
@@ -40,23 +46,32 @@ public class onBoneClick : MonoBehaviour {
 	void OnMouseDown()
 	{
 		//daca am dat click pe osu corect
-		if (boneinfo.id == pickBoneGameManager.currentBoneId) {
-		
-			pickBoneGameManager.score++;
-			scoreText.text = "Scor: " + pickBoneGameManager.score;
+		if (pickBoneGameManager.gameInProgress == true) {
+			
+				if (boneinfo.id == pickBoneGameManager.currentBoneId) {
 
-			//culoarea
-			changeBoneColor(Color.green);
-			pickBoneGameManager.resetWrongBones ();
+					pickBoneGameManager.score++;
+					scoreText.text = "Scor: " + pickBoneGameManager.score;
 
-			//facut manevra la buton
+					//culoarea
+					changeBoneColor(Color.green);
+					pickBoneGameManager.resetWrongBones ();
 
-			skipBtnText.text = "Urmator";
+					//facut manevra la buton
 
-		} else {
-			pickBoneGameManager.addWrongBone (gameObject);
-			changeBoneColor(Color.red);
+					skipBtnText.text = "Urmator";
+					pickBoneGameManager.correctBoneClicked = true;
+					m_OriginalColor = m_Renderer.material.color;
+					GetComponent<MeshCollider> ().enabled = false;
+
+				} else {
+					pickBoneGameManager.addWrongBone (gameObject);
+					changeBoneColor(Color.red);
+				}
+
+
 		}
+
 	}
 
 	public void changeBoneColor(Color c)
