@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu/menu.unity
+    path: Assets/Scenes/menuScene/menu.unity
     guid: 1d47bded54eb1b64db96ba9347bf691f
   - enabled: 1
-    path: Assets/Play/playScene.unity
+    path: Assets/Scenes/learnScene/playScene.unity
     guid: 7394920a66e028d44b396283ae207c43
   - enabled: 1
-    path: Assets/Test/testScene.unity
+    path: Assets/Scenes/selectTestScene/testScene.unity
     guid: 2d36b2207ca0f8944b942832e21ac367
   - enabled: 1
-    path: Assets/pickBone/pickBone.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/pickBone/pickBone.unity
+    guid: 33cc09aac3439e148a5ba3d889ca7c5c
