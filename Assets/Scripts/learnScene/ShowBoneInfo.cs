@@ -25,7 +25,7 @@ public class ShowBoneInfo : MonoBehaviour {
 
 
 	void OnMouseDown(){
-		if (sceneName == "playScene") {
+		if (sceneName == "playScene" || sceneName=="learnSkull") {
 			boneName.text = db.bonesArray.boneEntries [id].boneName;
 			description.text = db.bonesArray.boneEntries [id].description;	
 		}
@@ -33,7 +33,7 @@ public class ShowBoneInfo : MonoBehaviour {
 	}
 
 	void OnMouseEnter() {
-		if (sceneName == "playScene") {
+		if (sceneName == "playScene" || sceneName=="learnSkull") {
 			boneName.text = db.bonesArray.boneEntries [id].boneName;
 		}
 	}

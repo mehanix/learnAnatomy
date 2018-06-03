@@ -5,13 +5,13 @@ using System.Collections;
 public class DragMouseOrbit : MonoBehaviour
 {
 	public Transform target;
-	public float distance = 2.0f;
-	public float xSpeed = 20.0f;
-	public float ySpeed = 20.0f;
-	public float yMinLimit = -90f;
-	public float yMaxLimit = 90f;
-	public float distanceMin = 10f;
-	public float distanceMax = 10f;
+	public float distance = 5.0f;
+	public float xSpeed = 120.0f;
+	public float ySpeed = 120.0f;
+	public float yMinLimit = -20f;
+	public float yMaxLimit = 80f;
+	public float distanceMin = .5f;
+	public float distanceMax = 15f;
 	public float smoothTime = 2f;
 	float rotationYAxis = 0.0f;
 	float rotationXAxis = 0.0f;
@@ -45,11 +45,12 @@ public class DragMouseOrbit : MonoBehaviour
 			Quaternion toRotation = Quaternion.Euler(rotationXAxis, rotationYAxis, 0);
 			Quaternion rotation = toRotation;
 
-			distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel") * 5, distanceMin, distanceMax);
+			//distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel") * 5, distanceMin, distanceMax);
+			distance = 10;
 			RaycastHit hit;
 			if (Physics.Linecast(target.position, transform.position, out hit))
 			{
-			distance -= hit.distance;
+				//distance -= hit.distance;
 			}
 			Vector3 negDistance = new Vector3(0.0f, 0.0f, -distance);
 			Vector3 position = rotation * negDistance + target.position;

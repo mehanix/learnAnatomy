@@ -20,7 +20,7 @@ public class Zoom : MonoBehaviour {
 	}
 
 	void Update() {
-		if(sceneName=="playScene")
+		if(sceneName=="playScene" || sceneName=="learnSkull")
 			if (Input.GetMouseButtonDown (0)) {
 				RaycastHit hit;
 				gm.isZoomed = true;

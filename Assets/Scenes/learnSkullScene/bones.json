@@ -1,0 +1,512 @@
+[
+ {
+   "Id": "1",
+   "boneName": "Neurocraniu",
+   "description": "Neurocraniul reprezinta portiunea superioara a craniului, care vine in contact intim cu encefalul, creand cutia craniana care adaposteste creierul uman. Este format din 4 oase fara pereche si doua oase cu pereche: Frontal,Occipital,Sfenoid,Etmoid,Parietal si Temporal."
+ },
+ {
+   "Id": "2",
+   "boneName": "Viscerocraniul",
+   "description": "Viscerocraniul sau oasele fetei  sunt in numar de 15. Ele se grupeaza formand cele doua maxilare. Maxilarul superior este alcatuit din 13 oase. Acestea sunt: cornetele inferioare, lacrimalele, nazalele, maxilele, palatinele, zigomaticele (toate pereche) si vomerul, singurul nepereche. Maxilarul inferior este alcatuit dintr-un singur os, mandibula, care este si singurul os mobil al scheletului capului. Al 15-lea os, hioidul, cu toate ca este situat la nivelul gatului, se studiaza impreuna cu oasele fetei. Oasele viscerocraniului sunt unele pneumatice si neregulate, altele plane."
+ },
+ {
+   "Id": "3",
+   "boneName": "Oscioarele urechii",
+   "description": "Oscioarele urechii, cunoscute mai rar si ca osicule, reprezinta un lant de trei oase mici localizate in urechea medie, fiind printre cele mai mici oase alte corpului uman. Acestea transmit sunetele colectate de pavilionul urechii si mai apoi de timpan catre labirintul membranos numit cohlee. Cele trei oscioare sunt: ciocanul (malleus), nicovala (incus) si scarita (stapes)."
+ },
+ {
+   "Id": "4",
+   "boneName": "Manubriul",
+   "description": "Manubriul sternal numit si manerul sternal sau presternul este segmentul cranial (superior) al sternului, care se articuleaza cu cele 2 clavicule si cu prima pereche de coaste. Este plat, turtit antero-posterior si triunghiular, se prezinta mai lat sus si se ingusteaza spre unirea lui cu corpul sternului. Prezinta 2 fete: fata anterioara si fata posterioara, 4 margini: doua margini laterale, marginea superioara (baza sternului) si marginea inferioara."
+ },
+ {
+   "Id": "5",
+   "boneName": "Corpul sternului",
+   "description": "Corpul sternului numit si mezostern este segmentul mijlociu al sternului, aflat intre manubriu si procesul xifoidian. Este mai lung, mai ingust si mai subtire fata de manubriu si este mai lat in portiunea inferioara. Prezinta 2 fete: fata anterioara si fata posterioara, si 4 margini: doua margini laterale, marginea superioara si marginea inferioara. Corpul sternului embrionar este format din 4 segmente numite sternebre care persista pana la pubertate. Sternebrele sunt unite intre ele prin jonctiuni cartilaginoase. Aceste jonctiuni se osifica la pubertate si la 25 de ani antreneaza o fuziune progresiva a sternebrelor formand corpul sternului la adult. Liniile de fuziune a sternebrelor se vad pe fata anterioara a corpului sternului la adult."
+ },
+ {
+   "Id": "6",
+   "boneName": "Apendicele xifoid",
+   "description": "Procesul xifoidian (xifoid), numit si apendicele xifoid, metastern, xifistern, procesul enziform formeaza varful sternului. Reprezinta segmentul inferior al sternului si se afla in epigastriu. Este elementul cel mai mic si cel mai variabil al sternului, avand forme si dimensiuni variate, poate fi ovalar sau triunghiular, larg sau subtire, ascutit sau bifid (bifurcat), curbat sau deviat spre o parte; este adesea perforat la mijloc de un orificiu. Procesul xifoidian este cartilaginos la persoanele tinere si se de obicei se osifica la batrani."
+ },
+ {
+   "Id": "7",
+   "boneName": "Cutia Toracica",
+   "description": "Cavitatea toracica este formata de articularea coastelor cu sternul si coloanal vertebrala. Aceasta are aspect de trunchi de con, turtit antero-posterior. Coastele sunt in numar de 12 arcuri. Fiecare coasta e alcatuita din os costal si cartilaj costal. Coastele sunt clasificate dupa modul de prindere de stern in 3 categorii: coaste adevarate(primele 7 perechi, se articuleaza cu sternul prin intermediul propriului cartilaj), coaste false (ultimele 5 perechi, primele 3 se articuleaza cu sternul prin intermediul coastei VII, ultimele 2 nu se articuleaza, numindu-se coaste flotante)."
+ },
+ {
+   "Id": "8",
+   "boneName": "Coloana vertebrala",
+   "description": "Coloana vertebrala este cea mai importanta componenta a scheletului osos si a aparatului locomotor, implicit. Ea serveste ca punct de ancorare pentru toate celelalte elemente care alcatuiesc corpul uman. Lungimea coloanei vertebrale este in medie de 73 cm la barbat si 63 cm la femeie, reprezentand astfel 40% din lungimea totala a corpului. Latimea maxima a coloanei vertebrale este la baza sacrului, unde masoara 11 cm. Segment complex, de o mare importanta functionala, coloana vertebrala este alcatuita din 33 sau 34 de segmente osoase (vertebre), 344 de suprafete articulare, 23 de discuri intervertebrale si 365 de ligamente cu 730 de puncte de insertie. Asupra coloanei vertebrale actioneaza nu mai putin de 730 de muschi cu actiune directa."
+ },
+ {
+   "Id": "9",
+   "boneName": "C1(Atlas)",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "10",
+   "boneName": "T1",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "11",
+   "boneName": "L1-L5",
+   "description": "Vertebrele lombare raspund regiunii lombare. Ele sunt in numar de 5 si se noteaza de la L1 la L5. Impreuna formeaza coloana lombara."
+ },
+ {
+   "Id": "12",
+   "boneName": "Vertebrele sacro-coccigiene",
+   "description": "Vertebrele sacro-coccigiene sunt in numar de 5 respectiv 4-5 piese osoase si raspund pelvisului. Ele se sudeaza dand nastere la doua oase: sacrul respectiv coccigiene. Fiind oase sudate intre ele se ai numesc si vertebre false."
+ },
+ {
+   "Id": "13",
+   "boneName": "Omoplat",
+   "description": "Scapula sau omoplatul este un os lat, de forma triunghiulara, situat la partea postero-superioara a toracelui. Pe schelet, acest os se întinde între primul spatiu intercostal si coasta a VIII. Osul este aplicat pe torace, pe care-l depaseste însa lateral, luând astfel parte la formarea umarului si la delimitarea axilei."
+ },
+ {
+   "Id": "14",
+   "boneName": "Clavicula",
+   "description": "Clavicula este un os lung, dublu curbat si pereche, care formeaza portiunea anterioara a centurii scapulare. Este situata transversal intre acromionulscapulei si manubriul sternului, la limita dintre torace si gat. Prezinta un corp (care are doua fete, superioara si inferioara, si doua margini, anterioara si posterioara) si doua extremitati: extremitatea mediala (sternala) si extremitatea laterala (acromiala). Extremitatea mediala a claviculei se articuleaza cu manubriul sternului si primul cartilaj costal formand articulatia sternoclaviculara. Extremitatea laterala a claviculei se articuleaza cu acromionul scapulei formând articulatia acromioclaviculara. Scheletul uman este format din doua clavicule, care fac legatura cu sternul si omoplatii."
+ },
+ {
+   "Id": "15",
+   "boneName": "C2(Axis)",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "16",
+   "boneName": "C3",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "17",
+   "boneName": "C4",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "18",
+   "boneName": "C5",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "19",
+   "boneName": "C6",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "20",
+   "boneName": "C7",
+   "description": "Vertebrele cervicale raspund gatului. Ele sunt in numar de 7 si se noteaza de la C1 la C7. Impreuna formeaza zona cervicala."
+ },
+ {
+   "Id": "21",
+   "boneName": "T2",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "22",
+   "boneName": "T3",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "23",
+   "boneName": "T4",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "24",
+   "boneName": "T5",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "25",
+   "boneName": "T6",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "26",
+   "boneName": "T7",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "27",
+   "boneName": "T8",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "28",
+   "boneName": "T9",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "29",
+   "boneName": "T10",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "30",
+   "boneName": "T11",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "31",
+   "boneName": "T12",
+   "description": "Vertebrele toracale (dorsale) raspund toracelui. Ele sunt in numar de 12 si se numeroteaza de la T1 la T12. Impreuna formeaza coloana toracala."
+ },
+ {
+   "Id": "32",
+   "boneName": "L2",
+   "description": "Vertebrele lombare raspund regiunii lombare. Ele sunt in numar de 5 si se noteaza de la L1 la L5. Impreuna formeaza coloana lombara."
+ },
+ {
+   "Id": "33",
+   "boneName": "L3",
+   "description": "Vertebrele lombare raspund regiunii lombare. Ele sunt in numar de 5 si se noteaza de la L1 la L5. Impreuna formeaza coloana lombara."
+ },
+ {
+   "Id": "34",
+   "boneName": "L4",
+   "description": "Vertebrele lombare raspund regiunii lombare. Ele sunt in numar de 5 si se noteaza de la L1 la L5. Impreuna formeaza coloana lombara."
+ },
+ {
+   "Id": "35",
+   "boneName": "L5",
+   "description": "Vertebrele lombare raspund regiunii lombare. Ele sunt in numar de 5 si se noteaza de la L1 la L5. Impreuna formeaza coloana lombara."
+ },
+ {
+   "Id": "36",
+   "boneName": "Sacrul",
+   "description": "Sacrul este format din sudarea vertebrelor sacrale. I se descriu: o fata pelvina, o fata dorsala, o baza, un varf si canalul sacral."
+ },
+ {
+   "Id": "37",
+   "boneName": "Coccis",
+   "description": "Coccisul se formeaza prin sudarea vertebrelor coccigene insa are dimensiuni reduse, este rudimentar. Aceasta prezinta cornul coccisului carre prin intermediul ligamentelor se leaga de cornul sacrului."
+ },
+ {
+   "Id": "38",
+   "boneName": "Humerus",
+   "description": "Humerusul (Humerus) - este un os lung si pereche. Prezinta: o diafiza si doua epifize."
+ },
+ {
+   "Id": "39",
+   "boneName": "Radius",
+   "description": "Radiusul este un os lung si pereche, situat la partea laterala a antebratului, lateral de ulna si in dreptul policelui. Prin miscarile sale de invaluire in jurul capului ulnei asigura pozitia mainii in miscarile de pronatie si supinatie. Radiusul prezinta un corp si doua extremitati sau epifize (superioara sau proximala si inferioara sau distala)."
+ },
+ {
+   "Id": "40",
+   "boneName": "Ulna",
+   "description": "Ulna sau cubitusul este un os lung si pereche, situat in partea mediala a antebratului, asezat medial fata de radius cu care formeaza scheletul antebratului. Ulna se afla in prelungirea degetului mic. Ulna prezinta un corp si doua extremitati sau epifize. Corpul ulnei are trei fete (anterioara, mediala si posterioara), trei margini (anterioara, posterioara si laterala sau interosoasa). Extremitatea (epifiza) superioara prezinta doua procese (olecran si procesul coronoid), doua incizuri (trohleara si radiala) si tuberozitatea ulnei. Extremitatea (epifiza) inferioara prezinta capul si procesul stiloid. Ulna se articuleaza cu humerusul (proximal), radiusul (proximal si distal) si piramidalul (distal)."
+ },
+ {
+   "Id": "41",
+   "boneName": "Osul Trapez",
+   "description": "Trapezul sau osul trapez este primul si cel mai lateral os al randului distal (al doilea) al oaselor carpului si se afla distal de scafoid. Se articuleaza cu scafoidul, trapezoidul, metacarpienele I, II."
+ },
+ {
+   "Id": "42",
+   "boneName": "Osul Trapezoid",
+   "description": "Trapezoidul sau osul trapezoid este al doilea, dinafara inauntru, dintre oasele celui de-al doilea rand de oase carpiene. Are o forma neregulata asemanatoare cu cea a unui con cu baza posterior. Se articuleaza proximal cu scafoidul, distal cu osul metacarpian II, lateral cu trapezul ?i medial cu osul capitat"
+ },
+ {
+   "Id": "43",
+   "boneName": "Osul Capitat",
+   "description": "Osul capitat sau osul mare este osul central al carpului, fiind al treilea os dinafara inauntru din randul distal (metacarpian) de oase carpiene. Este cel mai voluminos os carpian, fiind situat central, in jurul sau grupandu-se celelalte oase. Are un cap (de aici derivand si numele sau), un col (gat) si un corp. Capul articular sferic este situat in partea superioara si este continuat inferior de colul si de corpul osului, mai voluminos. Osul capitat se articuleaza proximal cu semilunarul, distal cu oasele metacarpiene II, III si IV, lateral cu scafoidul si trapezoidul, medial cu osul cu carlig."
+ },
+ {
+   "Id": "44",
+   "boneName": "Osul cu carlig",
+   "description": "Osul cu carlig este cel mai medial dintre cele 4 oase ale randului distal de oase carpiene. Are o forma neregulata, asemanatoare unei piramide sau prisme triunghiulare. Fata palmara este prevazuta in partea ei inferioara cu o apofiza in forma de carlig"
+ },
+ {
+   "Id": "45",
+   "boneName": "Osul pisiform",
+   "description": "Pisiformul sau osul pisiform este cel mai medial os al primului rand de oase carpiene situat in grosimea tendonului muschiului flexor ulnar al carpului, pe fata palmara a osului piramidal, cu care se articuleaza. Pisiformul este un os sesamoid. Este cel mai mic os al carpului, de forma ovalara sau lenticulara, fiind asemanator cu o boaba de mazare (de unde si numele)."
+ },
+ {
+   "Id": "46",
+   "boneName": "Osul piramidal",
+   "description": "Piramidalul sau osul piramidal este al treilea os (numarat dinafara inauntru) al primului rand de oase carpiene ale mainii. Este de fapt cel mai medial os al randului proximal al oaselor carpiene, deoarece pisiformul este asezat anterior. Are forma unei piramide (de unde si numele), cu baza superior si varful inferior si medial."
+ },
+ {
+   "Id": "47",
+   "boneName": "Osul semilunar",
+   "description": "Semilunarul sau osul semilunar este al doilea os, dinafara inauntru, dintre cele 4 oase ale primului rand (antebrahial) de oase carpiene, situat medial de scafoid. Are o forma semilunara (de unde ?i numele)."
+ },
+ {
+   "Id": "48",
+   "boneName": "Osul scafoid",
+   "description": "Scafoidul sau osul scafoid sau navicularul, osul navicular este cel mai lateral os al randului intai al carpului. Este comparat cu o luntre sau barca (de unde si numele) din cauza concavitatii pe care o prezinta. Are o forma usor alungita cu axul mare oblic, inferior si lateral. Se articuleaza distal cu trapezul si trapezoidul, proximal cu radiusul, medial (ulnar) cu semilunarul si cu osul capitat."
+ },
+ {
+   "Id": "49",
+   "boneName": "Metacarpian I",
+   "description": "Cel mai scurt si cel mai gros metacarpian."
+ },
+ {
+   "Id": "50",
+   "boneName": "Metacarpian II",
+   "description": "Este cel mai lung si are aspect bituberculat"
+ },
+ {
+   "Id": "51",
+   "boneName": "Metacarpian III",
+   "description": "Este putin mai scurt decat metacarpianul II si prezinta superior o fata articulata pentru osul mare. I se descrie la nivelul fetei posterioare procesul stioidian, la nivelul caruia i se insera muschiul lung etensor radial al capului."
+ },
+ {
+   "Id": "52",
+   "boneName": "Metacarpian IV",
+   "description": "Prezinta doua fatete articulare pentru metacarpienele III si V. Nu prezinta proces stioidian, spre deosebire de metacarpianul III cu care se aseamana."
+ },
+ {
+   "Id": "53",
+   "boneName": "Metacarpian V",
+   "description": "Este cel mai subtire si mic. Are o singura fateta articulara pentru metacarpianul IV. Este unitubercular la nivelul bazei."
+ },
+ {
+   "Id": "54",
+   "boneName": "Falanga I proximala",
+   "description": "Falanga proximala este cea mai bine reprezentata, fiind cea mai mare si avand o baza, un corp si un cap. Baza falangei are forma piramidala si prezinta superior o fata articulara pentru articulatia cu capul metacarpianului respectiv. Corpul falangei este turtit antero-posterior si prezenta o fata anterioara si una posterioara. Fata anterioara este plana, iar cea posterioara este convexa. Capul falangei prezinta o fata articulara cu aspect de trhlee, care se articuleaza cu baza falangei medii."
+ },
+ {
+   "Id": "55",
+   "boneName": "Falanga I intermediara",
+   "description": "Falanga medie se aseamana foarte mult cu falanga proximala,dar este mai mica si prezinta o creasta sagitala care separa baza"
+ },
+ {
+   "Id": "56",
+   "boneName": "Falanga I distala",
+   "description": "Falanga distala se aseamana cu falanga mijlocie dar corpul este mai lat superior si mai ingust inferior. Se descrie tuberozitatea falangei distale, situata distal. Aceasta este anterior rugoasa (la nivelul pulei degetului) si neteda posterior (la nivelul patului unghial)"
+ },
+ {
+   "Id": "57",
+   "boneName": "Falanga II proximala",
+   "description": "Falanga proximala este cea mai bine reprezentata, fiind cea mai mare si avand o baza, un corp si un cap. Baza falangei are forma piramidala si prezinta superior o fata articulara pentru articulatia cu capul metacarpianului respectiv. Corpul falangei este turtit antero-posterior si prezenta o fata anterioara si una posterioara. Fata anterioara este plana, iar cea posterioara este convexa. Capul falangei prezinta o fata articulara cu aspect de trhlee, care se articuleaza cu baza falangei medii."
+ },
+ {
+   "Id": "58",
+   "boneName": "Falanga III proximala",
+   "description": "Falanga proximala este cea mai bine reprezentata, fiind cea mai mare si avand o baza, un corp si un cap. Baza falangei are forma piramidala si prezinta superior o fata articulara pentru articulatia cu capul metacarpianului respectiv. Corpul falangei este turtit antero-posterior si prezenta o fata anterioara si una posterioara. Fata anterioara este plana, iar cea posterioara este convexa. Capul falangei prezinta o fata articulara cu aspect de trhlee, care se articuleaza cu baza falangei medii."
+ },
+ {
+   "Id": "59",
+   "boneName": "Falanga IV proximala",
+   "description": "Falanga proximala este cea mai bine reprezentata, fiind cea mai mare si avand o baza, un corp si un cap. Baza falangei are forma piramidala si prezinta superior o fata articulara pentru articulatia cu capul metacarpianului respectiv. Corpul falangei este turtit antero-posterior si prezenta o fata anterioara si una posterioara. Fata anterioara este plana, iar cea posterioara este convexa. Capul falangei prezinta o fata articulara cu aspect de trhlee, care se articuleaza cu baza falangei medii."
+ },
+ {
+   "Id": "60",
+   "boneName": "Falanga II intermediara",
+   "description": "Falanga medie se aseamana foarte mult cu falanga proximala,dar este mai mica si prezinta o creasta sagitala care separa baza"
+ },
+ {
+   "Id": "61",
+   "boneName": "Falanga III intermediara",
+   "description": "Falanga medie se aseamana foarte mult cu falanga proximala,dar este mai mica si prezinta o creasta sagitala care separa baza"
+ },
+ {
+   "Id": "62",
+   "boneName": "Falanga IV intermediara",
+   "description": "Falanga medie se aseamana foarte mult cu falanga proximala,dar este mai mica si prezinta o creasta sagitala care separa baza"
+ },
+ {
+   "Id": "63",
+   "boneName": "Falanga V intermediara",
+   "description": "Falanga medie se aseamana foarte mult cu falanga proximala,dar este mai mica si prezinta o creasta sagitala care separa baza"
+ },
+ {
+   "Id": "64",
+   "boneName": "Falanga II distala",
+   "description": "Falanga distala se aseamana cu falanga mijlocie dar corpul este mai lat superior si mai ingust inferior. Se descrie tuberozitatea falangei distale, situata distal. Aceasta este anterior rugoasa (la nivelul pulei degetului) si neteda posterior (la nivelul patului unghial)"
+ },
+ {
+   "Id": "65",
+   "boneName": "Falanga III distala",
+   "description": "Falanga distala se aseamana cu falanga mijlocie dar corpul este mai lat superior si mai ingust inferior. Se descrie tuberozitatea falangei distale, situata distal. Aceasta este anterior rugoasa (la nivelul pulei degetului) si neteda posterior (la nivelul patului unghial)"
+ },
+ {
+   "Id": "66",
+   "boneName": "Falanga IV distala",
+   "description": "Falanga distala se aseamana cu falanga mijlocie dar corpul este mai lat superior si mai ingust inferior. Se descrie tuberozitatea falangei distale, situata distal. Aceasta este anterior rugoasa (la nivelul pulei degetului) si neteda posterior (la nivelul patului unghial)"
+ },
+ {
+   "Id": "67",
+   "boneName": "Falanga V distala",
+   "description": "Falanga distala se aseamana cu falanga mijlocie dar corpul este mai lat superior si mai ingust inferior. Se descrie tuberozitatea falangei distale, situata distal. Aceasta este anterior rugoasa (la nivelul pulei degetului) si neteda posterior (la nivelul patului unghial)"
+ },
+ {
+   "Id": "68",
+   "boneName": "Femur",
+   "description": "Femurul este osul care formeaza scheletul coapsei animalelor, fiind cel mai mare os din corp (la omul adult acesta masoara 40–50 cm). La extremitatea sa superioara (epifiza superioara) se gaseste capul femural care este legat de corpul femurului (sau diafiza) prin intermediul colului femural. La unirea colului femural cu diafiza femurala se gasesc doua proeminente numite trohanterul mare ?i trohanterul mic, unite prin linia intertrohanterica. Celalalta epifiza este formata din condilii lateral si medial, epicondilii lateral si medial, tuberculul adductor si fata patelara care este acoperita de rotula (sau patela)."
+ },
+ {
+   "Id": "69",
+   "boneName": "Rotula",
+   "description": "Patela sau rotula este un os scurt, rotund, turtit antero-posterior si pereche, care face parte din scheletul genunchiului, situat la extremitatea inferioara a femurului in tendonul muschiului cvadriceps femural. Este considerata ca un os sesamoid, dezvoltat in grosimea tendonului muschiului cvadriceps. Patela are doua fete si doua margini, o baza si un varf."
+ },
+ {
+   "Id": "70",
+   "boneName": "Fibula",
+   "description": "Fibula sau peroneul, este un os lung, subtire, pereche pe partea laterala a gambei, ce pare torsionat pe axul sau, situat lateral si posterior fata de tibie, cu care se articuleaza la cele doua extremitati. Ca orice os lung, el prezinta un corp si doua extremitati (proximala si distala). Corpul are 3 fete (laterala, mediala si posterioara), 3 margini (anterioara, mediala sau interosoasa si posterioara). Fibula formeaza impreuna cu tibia scheletul gambei. Se articuleaza proximal cu condilul lateral al tibiei, iar distal cu tibia si talusul."
+ },
+ {
+   "Id": "71",
+   "boneName": "Tibia",
+   "description": "Tibia este osul cel mai mare si mai puternic dintre oasele gambei, celalalt fiind fibula. Tibia conecteaza femurul cu oasele piciorului. Este gasita langa fibula, in partea mediana si anterioara a gambei. Ea este legata de fibula printr-o membrana interosoasa, formand o articulatie cu un grad redus de mobilitate numita sindesmoza. Este recunoscuta si ca osul cu cea mai mare rezistenta la greutate din corpul uman. Tibia este un os lung, pereche. Are o diafiza sau corp si doua epifize."
+ },
+ {
+   "Id": "72",
+   "boneName": "Astragalul",
+   "description": "Talusul sau astragalul este un os scurt situat dedesubtul oaselor gambei si deasupra calcaneului, fiind format din trei portiuni: o portiune posterioara numita corp, o portiune anterioara rotunjita numita cap si o portiune intermediara numita col."
+ },
+ {
+   "Id": "73",
+   "boneName": "Calcaneul",
+   "description": "Calcaneul este cel mai mare os al tarsului, situat dedesubtul astragalului si stand direct pe sol. Este un os scurt, alungit antero-posterior si turtit in sens transversal, cu o forma cubica, neregulata, cu sase fete: anterioara, posterioara, superioara, inferioara, externa si interna."
+ },
+ {
+   "Id": "74",
+   "boneName": "Cuboidul",
+   "description": "Este situat inaintea calcaneului, inapoia ultimelor doua metatarsiene si lateral de scafoid si ultimul cuneiform. Fata superioara este plana si acoperita de ligamente si de muschiul pedios."
+ },
+ {
+   "Id": "75",
+   "boneName": "Scafoidul",
+   "description": "Se gaseste situat inauntru cuboidului, inaintea astragalului in inapoia celor trei cuneiforme. Este turtit antero-posterior si este concav in portiunea posterioara si concav in portiunea anterioara. Are o forma de barca, si i se descriu doua fete, doua margini si doua extremitati."
+ },
+ {
+   "Id": "76",
+   "boneName": "Cuneiformele",
+   "description": "Sunt in numar de trei, numite primul cuneiform, al doilea si al treilea, mergand dinspre medial spre lateral."
+ },
+ {
+   "Id": "77",
+   "boneName": "Metatarsian I",
+   "description": "Fiecare metatarsian are un corp diafizar lung, care are doua capete epifizare, baza si capatul. Bazele metatarsienelor se articuleaza cu oasele tarsului în partea de mijloc a piciorului. Capetele se articuleaza cu falangele degetelor corespunzatoare."
+ },
+ {
+   "Id": "78",
+   "boneName": "Metatarsian II",
+   "description": "Fiecare metatarsian are un corp diafizar lung, care are doua capete epifizare, baza si capatul. Bazele metatarsienelor se articuleaza cu oasele tarsului în partea de mijloc a piciorului. Capetele se articuleaza cu falangele degetelor corespunzatoare."
+ },
+ {
+   "Id": "79",
+   "boneName": "Metatarsian III",
+   "description": "Fiecare metatarsian are un corp diafizar lung, care are doua capete epifizare, baza si capatul. Bazele metatarsienelor se articuleaza cu oasele tarsului în partea de mijloc a piciorului. Capetele se articuleaza cu falangele degetelor corespunzatoare."
+ },
+ {
+   "Id": "80",
+   "boneName": "Metatarsian IV",
+   "description": "Fiecare metatarsian are un corp diafizar lung, care are doua capete epifizare, baza si capatul. Bazele metatarsienelor se articuleaza cu oasele tarsului în partea de mijloc a piciorului. Capetele se articuleaza cu falangele degetelor corespunzatoare."
+ },
+ {
+   "Id": "81",
+   "boneName": "Metatarsian V",
+   "description": "Fiecare metatarsian are un corp diafizar lung, care are doua capete epifizare, baza si capatul. Bazele metatarsienelor se articuleaza cu oasele tarsului în partea de mijloc a piciorului. Capetele se articuleaza cu falangele degetelor corespunzatoare."
+ },
+ {
+   "Id": "82",
+   "boneName": "Osul hioid",
+   "description": "Osul hioid (sau osul lingual) este un os in forma de a de cal situat in linia median anterioara a gatului intre barbie si glanda tiroida. In repaus, acesta se asaza la nivelul bazei mandibulei in fata, si la nivelul celei de-a 3-a vertebre cervicale (C3), in spate."
+ },
+ {
+   "Id": "",
+   "boneName": "",
+   "description": "Spre deosebire de toate celelalte oase, osul hioid este distant articulat de altele prin muschi sau ligamente. El este ancorat de muschi din partea anterioara, posterioara si inferioara, ajutand la miscarea limbii si la inghitire. El furnizeaza suport pentru muschii podelei gurii de sus, a laringelui de jos si a epiglotei si a faringelui in spate."
+ },
+ {
+   "Id": "83",
+   "boneName": "Os frontal",
+   "description": "Frontalul este un os median si nepereche, situat in partea anterioara a craniului. Ia parte, de asemenea, la formarea cavitatilor nazale si a orbitelor. Este un os pneumatic, neregulat si latit. Frontalul este format dintr-o portiune verticala sau solzoasa si dintr-o portiune orizontala, formata la randul ei dintr-o scobitura adanca numita scobitura etmoidala; inaintea scobiturii etmoidale se afla o suprafata neregulata cunoscuta sub numele de portiunea nazala a osului frontal. De o parte si de cealalta a scobiturii etmoidale se afla doua lame osoase care formeaza portiunile orbitare ale osului frontal. Deci portiunea orizontala este subimpartita in: scobitura etmoidala, portiunea nazala si doua portiuni orbitare."
+ },
+ {
+   "Id": "84",
+   "boneName": "Osul parietal",
+   "description": "Osul parietal sau parietalul este un os pereche si apartine exclusiv calvariei (boltii craniului), este asezat intre osul frontal si occipital, deasupra osului temporal. Osul parietal are o forma patrulatera neregulata, curbata si prezinta 2 fete (externa, interna), 4 margini (frontala, sagitala, occipitala, solzoasa) si 4 unghiuri (frontal, occipital, sfenoidal, mastoidian). Se articuleaza cu osul frontal, occipital, sfenoid, temporal, parietalul de partea opusa."
+ },
+ {
+   "Id": "85",
+   "boneName": "Osul temporal",
+   "description": "Osul temporal apartine scheletului capului, neurocraniului fiind situat pe laturile acestuia intre occipital, parietal si sfenoid. Prezinta mai multe portiuni sudate in timpul vietii intrauterine: portiunea solzoasa, portiunea tympanica, portiunea pietroasa (stanca temporalului), procesul styloid, mastoida."
+ },
+ {
+   "Id": "86",
+   "boneName": "Osul occipital",
+   "description": "Osul occipital sau occipitalul este un os nepereche, situat median in partea posterioara si inferioara a craniului, participa la formarea bazei craniului si a boltii (calvariei) acestuia si a plafonului rinofaringelui. Este un os plat si recurbat cu forma romboidala neregulata. El este strabatut de o gaura larga - gaura occipitala mare in jurul careia se dispun cele patru portiuni ale osului: portiunea bazilara, situata inaintea gaurii occipitale, solzul occipitalului situat inapoia gaurii occipitale, doua portiuni laterale situate lateral. Osul occipital are 2 fete (exocraniana si endocraniana), 4 margini (doua superioare si doua inferioare) si 4 unghiuri (superior, anterior si 2 unghiuri laterale)."
+ },
+ {
+   "Id": "87",
+   "boneName": "Osul sfenoid",
+   "description": "Osul sfenoid sau sfenoidul este un os median si nepereche ce ia parte la formarea bazei craniului (cea mai mare parte a fosei craniene mijlocii), plafonului foselor nazale, plafonului si peretelui lateral al orbitei, fisurilor orbitare superioara si inferioara, partial fosele temporala si pterigopalatina. Are forma unui fluture cu aripile intinse sau unei viespi in zbor. Prezinta un corp si sase prelungiri - apofize: doua din ele sunt aripile mari, alte doua aripile mici, toate intinse lateral, iar doua apofize sunt orientate in jos, procesele pterigoide, contine sinusul sfenoidal. Se articuleaza cu osul frontal, occipital, etmoid, temporal, parietal, vomer, palatin, zigomatic."
+ },
+ {
+   "Id": "88",
+   "boneName": "Osul etmoid",
+   "description": "Etmoidul este un os median (nepereche) situat pe linia mediana a bazei craniului, in incizura etmoidala a frontalului. Are o forma complicata, care a fost comparata cu o balanta. Este format dintr-o lama verticala foarte subtire, dispusa mediosagital, o lama orizontala strabatuta de numeroase gauri, doua mase laterale cu o forma cubica situate lateral si inferior de lama orizontala (aceste mase laterale contin o serie de cavitati, pline cu aer, numite celule etmoidale). Etmoidul este un os pneumatizat datorita celulelor prezente in masele laterale. El ia parte la formarea portiunii anteromediane a bazei craniului, a cavitatilor orbitale si nazale."
+ },
+ {
+   "Id": "89",
+   "boneName": "Osul nazal",
+   "description": "Osul nazal este un os pereche, asezat la radacina nasului, pornind din incizura nazala a frontalului, paralel cu marginea anterioara a apofizei frontale a maxilarului, cu care se articuleaza. Osul nazal are forma unei lame patrulatere verticale, mai groasa la partea superioara, care se articleaza cu frontalul si mai subtire la partea inferioara, prin care se articuleaza cu cartilagiul nazal. Marginea laterala se articuleaza cu apofiza frontala a maxilarului, iar marginea mediala, cu nazalul, din partea opusa printr-o sutura armonica. Fata externa este convexa, acoperita de piele si formeaza radacina nasului, iar fata interna, este concava, formeaza o parte din peretele lateral superior al fosei nazale."
+ },
+ {
+   "Id": "90",
+   "boneName": "Osul lacrimal",
+   "description": "Osul lacrimal sau lacrimalul este un os mic patrulater ce ia parte la formarea peretelui medial al orbitei si al celui lateral al foselor nazale; are 2 fete (laterala - orbitara, mediala - nazala) si 4 margini (superioara, inferioara, posterioara, anterioara)"
+ },
+ {
+   "Id": "91",
+   "boneName": "Osul palatin",
+   "description": "Osul palatin este un os pereche, asezat Inapoia marginii posterioare a apofizei palatine a maxilarului. El este alcatuit din doua lame perpendiculare una pe alta: lama orizontala si lama verticala. Lama orizontala are forma aproximativ patrulatera. Marginea ei laterala se articuleaza cu marginea inferioara a lamei verticale, iar marginea mediala se articuleaza cu lama orizontala opusa si formeaza partea posterioara a palatului dur. Fata ei superioara formeaza o parte din podeaua cavitatii nazale, iar fata inferioara formeaza partea posterioara a boltii cavitatii bucale."
+ },
+ {
+   "Id": "92",
+   "boneName": "Vomerul",
+   "description": "Vomerul este un os nepereche, situat in planul median, intins intre corpul osului sfenoid si podeaua foselor nazale si formeaza partea postero-inferioara a septului nazal. Are forma unei lame osoase trapezoidale asemanandu-se cu un fier de plug. Prezinta 2 fete (dreapta, stanga) si 4 margini (superioara, inferioara, anterioara, posterioara). Se articuleaza cu osul etmoid (lama perpendiculara), sfenoid, ambele maxile, ambele oase palatine si cu cartilajul septului nazal."
+ },
+ {
+   "Id": "93",
+   "boneName": "Cornetul nazal inverior",
+   "description": "Cornetul inferior este un os pereche care se afla pe peretele lateral al foselor nazale, sub concha mijlocie a etmoidului. Are forma unei lamele trapezoidale rasucita ca un cornet de hartie; de aici si numele de cornet sau concha. Are 2 fete (laterala si mediala), si 2 margini (superioara si inferioara). Se articuleaza cu osul etmoid, lacrimal, palatin si maxila."
+ },
+ {
+   "Id": "94",
+   "boneName": "Maxila",
+   "description": "Maxila, sau maxilarul (superior) este un os pereche si neregulat, situat in centrul fetei, facand parte din viscerocraniu. Are un corp (cu 4 fete: anterioara, infratemporala, orbitara, nazala) si 4 procese (zigomatic, frontal, alveolar, palatin); contine sinusul maxilar si canale ce strabat maxila (canalul suborbitar, canale alveolare)."
+ },
+ {
+   "Id": "",
+   "boneName": "",
+   "description": "Fiecare maxila este formata din doua oase care s-au sudat in timpul dezvoltarii embrionare: maxila propriu-zisa si osul incisiv. Uneori, cele doua parti pot fi separate prin sutura incisiva sau pot fi complet izolate (cheiloschizis sau buza de iepure)."
+ },
+ {
+   "Id": "95",
+   "boneName": "Osul zigomatic",
+   "description": "Osul zigomatic numit inca si osul malar sau jugal, este un os pereche, de forma patrulatera, situat pe partea laterala si superioara a craniului facial, ca o punte intre fata si craniu. Formeaza proeminenta pometului obrazului, peretele lateral si planseul orbitei si ia parte la formarea peretilor fosei temporale si infratemporale si arcadei zigomatice. Are 3 fete (laterala – faciala, temporala, orbitara), 5 margini (antero-inferioara – maxilara, antero-superioara – orbitara, postero-superioara – temporala, postero-inferioara, postero-mediala), 2 procese sau apofize (frontal, temporal). Se articuleaza cu osul frontal, sfenoid, temporal si maxilla."
+ },
+ {
+   "Id": "96",
+   "boneName": "Mandibula",
+   "description": "Mandibula sau maxilarul inferior este un os median si nepereche situat in partea inferioara a fetei; este singurul os mobil al scheletului visceral. Mandibula este formata din doua jumatati simetrice, independente la fat si sudate pe linia mediana la adult. Prezinta un corp si doua ramuri. Corpul in forma de potcoava are 2 fete (externa, interna), 2 portiuni (superioara - portiunea alveolara, inferioara - baza mandibulei) si 2 margini (inferioara, superioara); pe marginea superioara (arcada alveolara inferioara) se afla dintii mandibulari."
+ },
+ {
+   "Id": "97",
+   "boneName": "Ciocanul",
+   "description": "Ciocanul este unul dintre oscioarele urechii. Are forma de ciocan si este localizat in urechea medie, facand legatura dintre timpan si nicovala. Este alcatuit din trei zone: capul, gatul si manerul. Pe manerul ciocanului se insereaza muschiul tensor al timpanului."
+ },
+ {
+   "Id": "98",
+   "boneName": "Nicovala",
+   "description": "Nicovala este unul dintre oscioarele urechii. Are forma de nicovala si este localizat in urechea medie, facand legatura dintre ciocan si scarita. Este alcatuit din capul nicovalei si ramurile superioare si inferioare."
+ },
+ {
+   "Id": "99",
+   "boneName": "Scarita",
+   "description": "Scarita este unul dintre oscioarele urechii. Are forma de scarita de calarie si este localizat in urechea medie, facand legatura dintre nicovala si fereastra ovala. Osul este alcatuit din capul scaritei, extremitatea laterala, extremitatea mediala si baza (o lama osoasa). Scarita are muschiul sau propriu, cel mai mic muschi striat al omului."
+ },
+ {
+   "Id": null,
+   "boneName": null,
+   "description": null
+ }
+]
