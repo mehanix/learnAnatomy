@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pickBone/pickBone.unity
     guid: 33cc09aac3439e148a5ba3d889ca7c5c
+  - enabled: 1
+    path: Assets/Scenes/bonePuzzle/bonePuzzle.unity
+    guid: 08c2d167f41511148a6de98ce8d4a695
