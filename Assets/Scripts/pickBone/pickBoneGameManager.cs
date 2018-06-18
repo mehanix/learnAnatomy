@@ -74,8 +74,15 @@ public class pickBoneGameManager : MonoBehaviour {
 			score = 0;
 
 			//reset facut toate intrebarile available
-			for (int i = 1; i <= 102; i++)
+			for (int i = 1; i <= 80; i++)
 				avaliableQuestions [i] = true;
+			avaliableQuestions [8] = false;
+			avaliableQuestions [6] = false;
+
+			//scos intrebari care nu sunt valide
+
+
+
 
 			questionIndex = 1;
 			gameInProgress = true;

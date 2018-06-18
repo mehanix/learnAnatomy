@@ -15,17 +15,16 @@ public class test : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other)
 	{
-		//if (gameObject.GetComponent<Rigidbody> () != null) {
-			//Debug.Log (gameObject.name + " " + other.gameObject.name);
+		if (gameObject.GetComponent<Rigidbody> () != null) {
+			Debug.Log (gameObject.name + " " + other.gameObject.name);
 			if (gameObject.name == other.gameObject.name) {
 				other.gameObject.GetComponent<MeshRenderer> ().enabled = true;
-				other.gameObject.transform.localScale = new Vector3 (1f, 1f, 1f);
-			other.gameObject.GetComponent<MeshCollider> ().enabled = false;
-			gameObject.GetComponent<test> ().enabled = false;
+				//other.gameObject.transform.localScale = new Vector3 (1f, 1f, 1f);
+				other.gameObject.GetComponent<SphereCollider> ().enabled = false;
 
 				Destroy (this.gameObject);
 		
-		//}
+		}
 	
 		}
 	}

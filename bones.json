@@ -2,8 +2,8 @@
  "boneEntries":[
 {
    "Id": "0",
-   "boneName": "Nimic",
-   "description": "To Be Continued"
+   "boneName": "Nume Os",
+   "description": "Informatiile despre acest os nu au fost adaugate inca."
  }, 
 {
    "Id": "1",
@@ -416,11 +416,6 @@
    "description": "Osul hioid (sau osul lingual) este un os in forma de a de cal situat in linia median anterioara a gatului intre barbie si glanda tiroida. In repaus, acesta se asaza la nivelul bazei mandibulei in fata, si la nivelul celei de-a 3-a vertebre cervicale (C3), in spate."
  },
  {
-   "Id": "",
-   "boneName": "",
-   "description": "Spre deosebire de toate celelalte oase, osul hioid este distant articulat de altele prin muschi sau ligamente. El este ancorat de muschi din partea anterioara, posterioara si inferioara, ajutand la miscarea limbii si la inghitire. El furnizeaza suport pentru muschii podelei gurii de sus, a laringelui de jos si a epiglotei si a faringelui in spate."
- },
- {
    "Id": "83",
    "boneName": "Os frontal",
    "description": "Frontalul este un os median si nepereche, situat in partea anterioara a craniului. Ia parte, de asemenea, la formarea cavitatilor nazale si a orbitelor. Este un os pneumatic, neregulat si latit. Frontalul este format dintr-o portiune verticala sau solzoasa si dintr-o portiune orizontala, formata la randul ei dintr-o scobitura adanca numita scobitura etmoidala; inaintea scobiturii etmoidale se afla o suprafata neregulata cunoscuta sub numele de portiunea nazala a osului frontal. De o parte si de cealalta a scobiturii etmoidale se afla doua lame osoase care formeaza portiunile orbitare ale osului frontal. Deci portiunea orizontala este subimpartita in: scobitura etmoidala, portiunea nazala si doua portiuni orbitare."
@@ -489,26 +484,6 @@
    "Id": "96",
    "boneName": "Mandibula",
    "description": "Mandibula sau maxilarul inferior este un os median si nepereche situat in partea inferioara a fetei; este singurul os mobil al scheletului visceral. Mandibula este formata din doua jumatati simetrice, independente la fat si sudate pe linia mediana la adult. Prezinta un corp si doua ramuri. Corpul in forma de potcoava are 2 fete (externa, interna), 2 portiuni (superioara - portiunea alveolara, inferioara - baza mandibulei) si 2 margini (inferioara, superioara); pe marginea superioara (arcada alveolara inferioara) se afla dintii mandibulari."
- },
- {
-   "Id": "97",
-   "boneName": "",
-   "description": ""
- },
- {
-   "Id": "98",
-   "boneName": "",
-   "description": ""
- },
- {
-   "Id": "99",
-   "boneName": "",
-   "description": ""
- },
- {
-   "Id": null,
-   "boneName": null,
-   "description": null
  }
 ]
 }

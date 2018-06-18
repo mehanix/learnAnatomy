@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
 
-	public GameObject mainMenu, learnMenu, testMenu;
+	public GameObject mainMenu, learnMenu, testMenu,loadingText;
 
 	public void switchToWorld(string sceneName) {
+		showLoadingText ();
 		SceneManager.LoadScene (sceneName);
+
 	}
 
 	public void exitGame() {
@@ -34,5 +36,10 @@ public class MenuManager : MonoBehaviour {
 	{
 		testMenu.SetActive (true);
 		mainMenu.SetActive (false);
+	}
+
+	void showLoadingText ()
+	{
+		loadingText.SetActive (true);
 	}
 }
