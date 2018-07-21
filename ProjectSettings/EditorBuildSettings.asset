@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/learnSkullScene/learnSkull.unity
     guid: 2a72d2c3ea1fdc948b3d070f0bb142d4
+  - enabled: 1
+    path: Assets/Scenes/spineScene/spineScene.unity
+    guid: 3fc95e144ca7495489a1f563efe9978c
