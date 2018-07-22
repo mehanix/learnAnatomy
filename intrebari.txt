@@ -19,11 +19,11 @@
             "raspunsCorect": 2
         },
         {
-            "textIntrebare": "",
+            "textIntrebare": "cc",
             "raspunsuri": [
-                "",
-                "",
-                ""
+                "cc",
+                "cc",
+                "cc"
             ],
             "raspunsCorect": 0
         },

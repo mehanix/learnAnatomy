@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour {
 	public GameObject cameraFocusPoint;
 	public Text boneName;
 	public Text description;
+	public GameObject helpWindow;
 	public void backToMenu() {
 		SceneManager.LoadScene ("menu");
 	}
@@ -24,5 +25,15 @@ public class Menu : MonoBehaviour {
 		
 
 
+	}
+
+	public void showHelpWindow ()
+	{
+		helpWindow.SetActive (true);
+	}
+
+	public void hideHelpWindow ()
+	{
+		helpWindow.SetActive (false);
 	}
 }
