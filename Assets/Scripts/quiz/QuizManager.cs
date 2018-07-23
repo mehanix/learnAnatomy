@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour {
 
@@ -11,19 +12,30 @@ public class QuizManager : MonoBehaviour {
 					  answer1Text,
 					  answer2Text,
 					  answer0Text;
-	int correctAnswer, userAnswer,questionIndex,score,totalQuestionsPerTest=9;
+	int correctAnswer, userAnswer,questionIndex,score,totalQuestionsPerTest=10;
 	int currentQuestionNr,totalQuestionNr=50;
 	public questionCollection qCollection;
 	public bool[] answered;
 
-	public ToggleGroup t;
+	public GameObject greetingWindow, quizWindow,resultsWindow;
+	public Toggle ans0, ans1, ans2;
+	public Text scoreLabel,resultLabel;
 	// Use this for initialization
 	void Start () {
 		qCollection = JsonUtility.FromJson<questionCollection>(File.ReadAllText("intrebari.txt"));
 		answered = new bool[qCollection.questions.Length];
 		//Debug.Log (totalQuestionNr.ToString ());
+	
+	}
+
+	public void startQuiz()
+	{
 		Initialise ();
 		nextQuestion ();
+		greetingWindow.SetActive (false);
+		resultsWindow.SetActive (false);
+
+		quizWindow.SetActive (true);
 	}
 	
 	// Update is called once per frame
@@ -42,7 +54,7 @@ public class QuizManager : MonoBehaviour {
 	{
 		//checking answer
 		userAnswer = getUserAnswer ();
-
+		Debug.Log (userAnswer.ToString ());
 		//check if anything selected
 		if (userAnswer != -1) {
 
@@ -54,8 +66,11 @@ public class QuizManager : MonoBehaviour {
 
 			if (currentQuestionNr < totalQuestionsPerTest)
 				nextQuestion ();
-			else
+			else {
+				quizWindow.SetActive (false);
 				showResultScreen ();
+			}
+				
 		}
 	
 
@@ -64,21 +79,29 @@ public class QuizManager : MonoBehaviour {
 	void increaseScore(){
 	
 		score++;
-		//TODO UPDATE SCORE LABEL TEXT
+		scoreLabel.text = "Scor: " + score + "/10";
 	}
 
 	void showResultScreen(){	
 		//TODO ACTUALLY CREATE A RESULTS WINDOW LOL
+		resultsWindow.SetActive(true);
+		resultLabel.text = "Testul s-a incheiat! Ai obtinut nota: " + score.ToString();
 	}
 
 	int getUserAnswer() {
 	
-		//t.ActiveToggles
-		return 1;
+		if (ans0.isOn == true)
+			return 0;
+		if (ans1.isOn == true)
+			return 1;
+		if (ans2.isOn == true)
+			return 2;
+		
+		return -1;
 	}
 
 
-	public void nextQuestion () {
+	 void nextQuestion () {
 		currentQuestionNr++;
 		answered [questionIndex] = true;
 		questionIndex = getRandomNewIndex ();
@@ -100,5 +123,8 @@ public class QuizManager : MonoBehaviour {
 		return temp;
 	}
 
-
+	public void backToMenu()
+	{
+		SceneManager.LoadScene ("menu");
+	}
 }
