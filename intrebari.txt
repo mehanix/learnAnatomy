@@ -1,454 +1,453 @@
 {
-    "questions": [
-        {
-            "textIntrebare": "aa",
-            "raspunsuri": [
-                "abba",
-                "abba",
-                "bb"
-            ],
-            "raspunsCorect": 1
-        },
-        {
-            "textIntrebare": "bb",
-            "raspunsuri": [
-                "abba",
-                "abba",
-                "bb"
-            ],
-            "raspunsCorect": 2
-        },
-        {
-            "textIntrebare": "cc",
-            "raspunsuri": [
-                "cc",
-                "cc",
-                "cc"
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        },
-        {
-            "textIntrebare": "",
-            "raspunsuri": [
-                "",
-                "",
-                ""
-            ],
-            "raspunsCorect": 0
-        }
-    ]
+	"questions": [{
+			"textIntrebare": "Scheletul uman este format din 206 oase separate, unite intre ele prin diferite...",
+			"raspunsuri": [
+				"Capilare",
+				"Articulatii",
+				"Vene"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Care este cel mai mare os din scheletul uman?",
+			"raspunsuri": [
+				"Femurul",
+				"Tibia",
+				"Ulna"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Care este cel mai mic os din scheletul uman?",
+			"raspunsuri": [
+				"Osul zigomatic",
+				"Osul nazal",
+				"Scarita"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Cate oase are neurocraniul?",
+			"raspunsuri": [
+				"6",
+				"8",
+				"12"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Din cate vertebre este alcatuita coloana vertebrala?",
+			"raspunsuri": [
+				"28",
+				"22",
+				"33"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Cate vertebre sacrale au in plus copii fata de adulti?",
+			"raspunsuri": [
+				"2",
+				"4",
+				"8"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Cate perechi de coaste are un schelet uman?",
+			"raspunsuri": [
+				"8",
+				"24",
+				"12"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Cate oase are coloana cervicala?",
+			"raspunsuri": [
+				"7",
+				"5",
+				"4"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Cate oase are coloana toracala?",
+			"raspunsuri": [
+				"11",
+				"12",
+				"15"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Cate oase are coloana lombara?",
+			"raspunsuri": [
+				"5",
+				"7",
+				"11"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Cate falange are o mana?",
+			"raspunsuri": [
+				"4 falange distale, 4 falange intermediare si 5 falange proximale",
+				"5 falange distale, 5 falange intermediare si 4 falange proximale",
+				"5 falange distale, 4 falange intermediare si 5 falange proximale"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Cum se numesc oasele gambei?",
+			"raspunsuri": [
+				"tibie si fibula",
+				"tibie si rotula",
+				"femur si tibie"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Cum se numesc oasele coapsei?",
+			"raspunsuri": [
+				"femur si peroneu",
+				"femur si rotula",
+				"tibie si rotula"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Cum se numeste osul lung, dublu curbat si pereche, care formeaza portiunea anterioara a centurii scapulare?",
+			"raspunsuri": [
+				"clavicula",
+				"os coxal",
+				"os palatin"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Cum se numeste osul median si nepereche situat pe linia mediana a bazei craniului, in incizura etmoidala a frontalului?",
+			"raspunsuri": [
+				"osul sfenoid",
+				"osul etmoid",
+				"osul nazal"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Din ce parte a scheletului fac parte ulna si radius?",
+			"raspunsuri": [
+				"Scheletul antebratului",
+				"Scheletul bratului",
+				"Scheletul coapsei"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Din cate oase este compus scheletul uman?",
+			"raspunsuri": [
+				"206",
+				"312",
+				"168"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Ce parte a scheletului se osifica odata cu inaintarea in varsta?",
+			"raspunsuri": [
+				"Oasele bazinului",
+				"Cutia toracica",
+				"Craniul"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Scheletul uman este de tipul:",
+			"raspunsuri": [
+				"Exoschelet",
+				"Endoschelet",
+				"Mezoschelet"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Oasele au in componenta mineralul:",
+			"raspunsuri": [
+				"Sodiu",
+				"Borax",
+				"Calciu"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Oasele care compun coloana vertebrala se numesc",
+			"raspunsuri": [
+				"Cartilaje",
+				"Coaste",
+				"Vertebre"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Unde este localizat peroneul?",
+			"raspunsuri": [
+				"Gamba",
+				"Brat",
+				"Antebrat"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Care parte a scheletului protejeaza organele interne precum inima sau plamanii?",
+			"raspunsuri": [
+				"Cutia craniana",
+				"Cutia toracica",
+				"Oasele bazinului"
+			],
+			"raspunsCorect": 1
+		},
+		{
+			"textIntrebare": "Osul patela are ca denumire alternativa:",
+			"raspunsuri": [
+				"Rotula",
+				"Clavicula",
+				"Coccis"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "Ce este osificarea?",
+			"raspunsuri": [
+				"Aparitia artritei la varste fragede",
+				"Pierderea densitatii oaselor",
+				"Procesul prin care cartilajul se intareste"
+			],
+			"raspunsCorect": 2
+		},
+		{
+			"textIntrebare": "Ce parte a scheletului este afectata de scolioza?",
+			"raspunsuri": [
+				"Coloana vertebrala",
+				"Coastele",
+				"Oasele mainii"
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		},
+		{
+			"textIntrebare": "",
+			"raspunsuri": [
+				"",
+				"",
+				""
+			],
+			"raspunsCorect": 0
+		}
+	]
 }

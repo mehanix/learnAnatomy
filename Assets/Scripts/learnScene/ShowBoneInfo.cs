@@ -12,6 +12,7 @@ public class ShowBoneInfo : MonoBehaviour {
 	public Text description;
 	public int id;
 	string sceneName;
+	public static GameObject backBtn;
 	void Start() {
 		
 		db = GameObject.FindGameObjectWithTag("GameManager").GetComponent<BoneDbHandler> ();
@@ -20,7 +21,8 @@ public class ShowBoneInfo : MonoBehaviour {
 		if(GameObject.FindGameObjectWithTag ("descriptionText")!=null)
 			description = GameObject.FindGameObjectWithTag ("descriptionText").GetComponent<Text>();
 		sceneName = SceneManager.GetActiveScene ().name;
-		
+
+	
 	}
 
 
@@ -28,6 +30,7 @@ public class ShowBoneInfo : MonoBehaviour {
 		if (sceneName == "playScene" || sceneName=="learnSkull") {
 			boneName.text = db.bonesArray.boneEntries [id].boneName;
 			description.text = db.bonesArray.boneEntries [id].description;	
+			backBtn.SetActive (true);
 		}
 	
 	}

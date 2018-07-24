@@ -22,6 +22,7 @@ public class Menu : MonoBehaviour {
 			cameraFocusPoint.transform.position = new Vector3 (0.02f, -0.14f, 0.53320f);
 			boneName.text = "Numele Osului";
 			description.text = "Informatiile despre osul selectat vor aparea aici :)";
+			gameObject.SetActive (false);
 		
 
 

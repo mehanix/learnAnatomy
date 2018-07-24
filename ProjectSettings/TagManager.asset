@@ -12,6 +12,7 @@ TagManager:
   - test
   - skipButtonText
   - CameraCenter
+  - backbtn
   layers:
   - Default
   - TransparentFX
