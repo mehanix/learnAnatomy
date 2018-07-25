@@ -1647,8 +1647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -159.59961, y: 0}
-  m_SizeDelta: {x: 320, y: 1600}
+  m_AnchoredPosition: {x: -200.3, y: 0}
+  m_SizeDelta: {x: 401.4, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163296483
 MonoBehaviour:
@@ -4042,6 +4042,8 @@ GameObject:
   - component: {fileID: 310447088}
   - component: {fileID: 310447087}
   - component: {fileID: 310447089}
+  - component: {fileID: 310447090}
+  - component: {fileID: 310447091}
   m_Layer: 0
   m_Name: Right_trapezium
   m_TagString: Block
@@ -4118,6 +4120,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 41
+--- !u!64 &310447090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310447085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300222, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &310447091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310447085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &325640683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4898,6 +4926,8 @@ GameObject:
   - component: {fileID: 443833324}
   - component: {fileID: 443833323}
   - component: {fileID: 443833325}
+  - component: {fileID: 443833326}
+  - component: {fileID: 443833327}
   m_Layer: 0
   m_Name: Left_scaphoid
   m_TagString: Block
@@ -4974,6 +5004,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 48
+--- !u!64 &443833326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443833321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300352, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &443833327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443833321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &458692198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5526,8 +5582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -158, y: -38.8}
-  m_SizeDelta: {x: 300, y: 51.9}
+  m_AnchoredPosition: {x: -197.5, y: -45.925003}
+  m_SizeDelta: {x: 379, y: 66.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510332327
 MonoBehaviour:
@@ -5550,7 +5606,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a770bd1c5dbfe944a7d236c0ffc6dfc, type: 3}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -5924,6 +5980,8 @@ GameObject:
   - component: {fileID: 546291955}
   - component: {fileID: 546291954}
   - component: {fileID: 546291956}
+  - component: {fileID: 546291957}
+  - component: {fileID: 546291958}
   m_Layer: 0
   m_Name: Right_scaphoid
   m_TagString: Block
@@ -6000,6 +6058,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 48
+--- !u!64 &546291957
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546291952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300224, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &546291958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546291952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &551100492
 GameObject:
   m_ObjectHideFlags: 0
@@ -7574,6 +7658,8 @@ GameObject:
   - component: {fileID: 678535617}
   - component: {fileID: 678535616}
   - component: {fileID: 678535618}
+  - component: {fileID: 678535619}
+  - component: {fileID: 678535620}
   m_Layer: 0
   m_Name: Right_lunate
   m_TagString: Block
@@ -7650,6 +7736,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 47
+--- !u!64 &678535619
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 678535614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300228, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &678535620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 678535614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &678693805
 GameObject:
   m_ObjectHideFlags: 0
@@ -8121,6 +8233,8 @@ GameObject:
   - component: {fileID: 702106055}
   - component: {fileID: 702106054}
   - component: {fileID: 702106056}
+  - component: {fileID: 702106057}
+  - component: {fileID: 702106058}
   m_Layer: 0
   m_Name: Left_lunate
   m_TagString: Block
@@ -8197,6 +8311,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 47
+--- !u!64 &702106057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702106052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300356, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &702106058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702106052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &704071099
 GameObject:
   m_ObjectHideFlags: 0
@@ -9069,6 +9209,8 @@ GameObject:
   - component: {fileID: 786279676}
   - component: {fileID: 786279675}
   - component: {fileID: 786279677}
+  - component: {fileID: 786279678}
+  - component: {fileID: 786279679}
   m_Layer: 0
   m_Name: Left_trapezium
   m_TagString: Block
@@ -9145,6 +9287,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 41
+--- !u!64 &786279678
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786279673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300350, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &786279679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786279673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &786727070
 GameObject:
   m_ObjectHideFlags: 0
@@ -9569,6 +9737,8 @@ GameObject:
   - component: {fileID: 850729281}
   - component: {fileID: 850729280}
   - component: {fileID: 850729282}
+  - component: {fileID: 850729283}
+  - component: {fileID: 850729284}
   m_Layer: 0
   m_Name: Right_hamate
   m_TagString: Block
@@ -9645,6 +9815,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 44
+--- !u!64 &850729283
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850729278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300230, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &850729284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850729278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1001 &855612850
 Prefab:
   m_ObjectHideFlags: 0
@@ -10419,6 +10615,8 @@ GameObject:
   - component: {fileID: 911853399}
   - component: {fileID: 911853398}
   - component: {fileID: 911853400}
+  - component: {fileID: 911853401}
+  - component: {fileID: 911853402}
   m_Layer: 0
   m_Name: Right_trapezoid
   m_TagString: Block
@@ -10495,6 +10693,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 42
+--- !u!64 &911853401
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911853396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300220, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &911853402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911853396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &917413656
 GameObject:
   m_ObjectHideFlags: 0
@@ -15801,6 +16025,8 @@ GameObject:
   - component: {fileID: 1357561747}
   - component: {fileID: 1357561746}
   - component: {fileID: 1357561748}
+  - component: {fileID: 1357561749}
+  - component: {fileID: 1357561750}
   m_Layer: 0
   m_Name: Right_pisiform
   m_TagString: Block
@@ -15877,6 +16103,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 45
+--- !u!64 &1357561749
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357561744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300226, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1357561750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357561744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1373131746
 GameObject:
   m_ObjectHideFlags: 0
@@ -16003,6 +16255,8 @@ GameObject:
   - component: {fileID: 1379088335}
   - component: {fileID: 1379088334}
   - component: {fileID: 1379088336}
+  - component: {fileID: 1379088337}
+  - component: {fileID: 1379088338}
   m_Layer: 0
   m_Name: Left_capitate
   m_TagString: Block
@@ -16079,6 +16333,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 43
+--- !u!64 &1379088337
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379088332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300360, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1379088338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379088332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1379634933
 GameObject:
   m_ObjectHideFlags: 0
@@ -17644,6 +17924,8 @@ GameObject:
   - component: {fileID: 1478821394}
   - component: {fileID: 1478821393}
   - component: {fileID: 1478821395}
+  - component: {fileID: 1478821396}
+  - component: {fileID: 1478821397}
   m_Layer: 0
   m_Name: Right_triquetral
   m_TagString: Block
@@ -17720,6 +18002,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 46
+--- !u!64 &1478821396
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478821391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300218, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1478821397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478821391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1492703748
 GameObject:
   m_ObjectHideFlags: 0
@@ -21864,6 +22172,8 @@ GameObject:
   - component: {fileID: 1788904037}
   - component: {fileID: 1788904036}
   - component: {fileID: 1788904038}
+  - component: {fileID: 1788904039}
+  - component: {fileID: 1788904040}
   m_Layer: 0
   m_Name: Left_hamate
   m_TagString: Block
@@ -21940,6 +22250,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 44
+--- !u!64 &1788904039
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1788904034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300358, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1788904040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1788904034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1797365197
 GameObject:
   m_ObjectHideFlags: 0
@@ -22270,8 +22606,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -156, y: 10}
-  m_SizeDelta: {x: 290, y: 30}
+  m_AnchoredPosition: {x: -199, y: 0}
+  m_SizeDelta: {x: 376, y: 80.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804580831
 MonoBehaviour:
@@ -22294,14 +22630,14 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: e740cd207ba038d4aac10f9e43ed8611, type: 3}
-    m_FontSize: 16
+    m_FontSize: 21
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 20
+    m_MaxSize: 21
     m_Alignment: 4
     m_AlignByGeometry: 1
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
@@ -22633,6 +22969,8 @@ GameObject:
   - component: {fileID: 1826871259}
   - component: {fileID: 1826871258}
   - component: {fileID: 1826871260}
+  - component: {fileID: 1826871261}
+  - component: {fileID: 1826871262}
   m_Layer: 0
   m_Name: Right_capitate
   m_TagString: Block
@@ -22709,6 +23047,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 43
+--- !u!64 &1826871261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826871256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300232, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1826871262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826871256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1835442727
 GameObject:
   m_ObjectHideFlags: 0
@@ -23585,6 +23949,8 @@ GameObject:
   - component: {fileID: 1871708249}
   - component: {fileID: 1871708248}
   - component: {fileID: 1871708250}
+  - component: {fileID: 1871708251}
+  - component: {fileID: 1871708252}
   m_Layer: 0
   m_Name: Left_triquetral
   m_TagString: Block
@@ -23661,6 +24027,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 46
+--- !u!64 &1871708251
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871708246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300346, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1871708252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871708246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1882426088
 GameObject:
   m_ObjectHideFlags: 0
@@ -25053,6 +25445,8 @@ GameObject:
   - component: {fileID: 1963551300}
   - component: {fileID: 1963551299}
   - component: {fileID: 1963551301}
+  - component: {fileID: 1963551302}
+  - component: {fileID: 1963551303}
   m_Layer: 0
   m_Name: Left_pisiform
   m_TagString: Block
@@ -25129,6 +25523,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 45
+--- !u!64 &1963551302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963551297}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300354, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &1963551303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963551297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &1964684429
 GameObject:
   m_ObjectHideFlags: 0
@@ -26141,6 +26561,8 @@ GameObject:
   - component: {fileID: 2084833544}
   - component: {fileID: 2084833543}
   - component: {fileID: 2084833545}
+  - component: {fileID: 2084833546}
+  - component: {fileID: 2084833547}
   m_Layer: 0
   m_Name: Left_trapezoid
   m_TagString: Block
@@ -26217,6 +26639,32 @@ MonoBehaviour:
   boneName: {fileID: 0}
   description: {fileID: 0}
   id: 42
+--- !u!64 &2084833546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2084833541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300348, guid: a11a2982d1042ad468b138eae62f6e52, type: 3}
+--- !u!114 &2084833547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2084833541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8756103b85199084ca263d0de02c9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 1032286514}
 --- !u!1 &2094537344
 GameObject:
   m_ObjectHideFlags: 0

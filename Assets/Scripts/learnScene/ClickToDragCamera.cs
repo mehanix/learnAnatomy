@@ -21,6 +21,13 @@ public class ClickToDragCamera : MonoBehaviour {
 			pos.x -= Input.GetAxis("Mouse X") * speed* Time.deltaTime;
 			pos.y -= Input.GetAxis("Mouse Y") * speed* Time.deltaTime;
 		}
+		if (Input.touchCount>0) {
+			Debug.Log ("touchinggg");
+			pos.x -= Input.touches[0].deltaPosition.x * speed* Time.deltaTime;
+			pos.y -= Input.touches[0].deltaPosition.y * speed* Time.deltaTime;
+			Debug.Log (pos.x.ToString () + " "+pos.y.ToString());
+
+		}
 
 		transform.position = pos;
 

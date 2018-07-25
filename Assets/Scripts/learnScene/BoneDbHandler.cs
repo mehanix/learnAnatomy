@@ -6,9 +6,11 @@ using System.IO;
 public class BoneDbHandler : MonoBehaviour  {
 
 	public BoneEntryArray bonesArray = new BoneEntryArray();
-
+	TextAsset bonesFile;
 	void Start() {
-	
-		bonesArray = JsonUtility.FromJson<BoneEntryArray> (File.ReadAllText ("bones.json"));
+		bonesFile = new TextAsset ();
+		bonesFile = Resources.Load ("bones") as TextAsset;
+		Debug.Log (bonesFile.text.ToString());
+		bonesArray = JsonUtility.FromJson<BoneEntryArray> (bonesFile.text);
 	}
 }

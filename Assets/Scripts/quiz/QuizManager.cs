@@ -21,9 +21,12 @@ public class QuizManager : MonoBehaviour {
 	public GameObject greetingWindow, quizWindow,resultsWindow,validateAnsBtn,nextQuestionBtn;
 	public Toggle ans0, ans1, ans2;
 	public Text scoreLabel,resultLabel;
+
+	TextAsset questionsData;
 	// Use this for initialization
 	void Start () {
-		qCollection = JsonUtility.FromJson<questionCollection>(File.ReadAllText("intrebari.txt"));
+		questionsData = Resources.Load ("intrebari") as TextAsset;
+		qCollection = JsonUtility.FromJson<questionCollection>(questionsData.text);
 		answered = new bool[qCollection.questions.Length];
 		//Debug.Log (totalQuestionNr.ToString ());
 	

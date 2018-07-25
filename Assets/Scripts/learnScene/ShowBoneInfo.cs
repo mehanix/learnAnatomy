@@ -30,7 +30,7 @@ public class ShowBoneInfo : MonoBehaviour {
 		if (sceneName == "playScene" || sceneName=="learnSkull") {
 			boneName.text = db.bonesArray.boneEntries [id].boneName;
 			description.text = db.bonesArray.boneEntries [id].description;	
-			backBtn.SetActive (true);
+//			backBtn.SetActive (true);
 		}
 	
 	}
