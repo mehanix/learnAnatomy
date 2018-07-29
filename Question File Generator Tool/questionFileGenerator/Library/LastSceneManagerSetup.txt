@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/neham/Desktop/Work/git_repos/repo/learnAnatomy/Assets/Scenes/play/pickBone/pickBone.unity
+  isLoaded: 1
+  isActive: 1
