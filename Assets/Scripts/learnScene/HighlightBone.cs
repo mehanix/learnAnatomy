@@ -29,7 +29,9 @@ public class HighlightBone : MonoBehaviour {
 		//Change the color of the GameObject to red when the mouse is over GameObject
 		if((sceneName=="pickBone" && pickBoneGameManager.gameInProgress == true) || (sceneName=="playScene" || sceneName=="learnSkull"))
 			if(m_Renderer.material.color==m_OriginalColor)
+			{
 				m_Renderer.material.color = m_MouseOverColor;
+			}
 	}
 
 	void OnMouseExit()

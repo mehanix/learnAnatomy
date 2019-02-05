@@ -29,7 +29,7 @@ public class toggleSelect : MonoBehaviour {
 
 //	public Vector3 recenter()
 	//{
-		///TODO FIND A WAY TO MAKE THIS WORK
+		//TODO FIND A WAY TO MAKE THIS WORK
 		/*Vector3 minPoints = new Vector3 (999f,999f,999f);
 		Vector3 maxPoints = new Vector3 (-999f,-999f,-999f);
 		int count = 0;

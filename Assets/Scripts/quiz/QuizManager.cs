@@ -29,13 +29,14 @@ public class QuizManager : MonoBehaviour {
 		qCollection = JsonUtility.FromJson<questionCollection>(questionsData.text);
 		answered = new bool[qCollection.questions.Length];
 		//Debug.Log (totalQuestionNr.ToString ());
-	
+		startQuiz();
 	}
 
 	public void startQuiz()
 	{
 		Initialise ();
 		nextQuestion ();
+	
 		greetingWindow.SetActive (false);
 		resultsWindow.SetActive (false);
 
