@@ -4086,7 +4086,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.07705066, y: 0.9687719, z: -0.06734579}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1585659608}
   m_Father: {fileID: 1091811000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13149,7 +13150,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 325640684}
-  - {fileID: 1585659608}
   - {fileID: 1610597292}
   m_Father: {fileID: 1418934603}
   m_RootOrder: 7
@@ -15128,7 +15128,7 @@ GameObject:
   - component: {fileID: 1247924136}
   m_Layer: 0
   m_Name: Left_ribs
-  m_TagString: Block
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15195,7 +15195,7 @@ MeshCollider:
   m_GameObject: {fileID: 1247924130}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 1
   m_InflateMesh: 1
@@ -19105,7 +19105,7 @@ GameObject:
   - component: {fileID: 1585659613}
   m_Layer: 0
   m_Name: Bony_part_of_right_hip_bone
-  m_TagString: Block
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19117,11 +19117,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1585659607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.077050656, y: 0.9687708, z: -0.06734586}
+  m_LocalPosition: {x: 0.15410131, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1091811000}
-  m_RootOrder: 1
+  m_Father: {fileID: 325640684}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1585659609
 MeshRenderer:
@@ -19172,7 +19172,7 @@ MeshCollider:
   m_GameObject: {fileID: 1585659607}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 1
   m_InflateMesh: 1
@@ -19581,7 +19581,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1091811000}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1610597293
 MeshRenderer:

@@ -25,6 +25,9 @@ public class Zoom : MonoBehaviour {
 				RaycastHit hit;
 				gm.isZoomed = true;
 				var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+
+
+
 				if (Physics.Raycast (ray, out hit) && hit.collider.tag == "Block") {
 					foreach (GameObject go in blocks) {
 						if (go == hit.collider.gameObject) {

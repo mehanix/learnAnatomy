@@ -13,6 +13,7 @@ TagManager:
   - skipButtonText
   - CameraCenter
   - backbtn
+  - Child
   layers:
   - Default
   - TransparentFX
