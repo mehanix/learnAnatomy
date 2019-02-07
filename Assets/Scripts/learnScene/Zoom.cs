@@ -10,13 +10,17 @@ public class Zoom : MonoBehaviour {
 	public float speed = 2.5f;
 	public GameManager gm;
 	public static GameObject[] blocks;
+	public static GameObject selectedBone;
 	string sceneName;
+	Ray ray;
 	void Start() {
 		
 		camTr  = Camera.main.transform;
 		camPos = camTr.position;
 		blocks = GameObject.FindGameObjectsWithTag ("Block");
 		sceneName = SceneManager.GetActiveScene ().name;
+		selectedBone = null;
+
 	}
 
 	void Update() {
@@ -24,12 +28,24 @@ public class Zoom : MonoBehaviour {
 			if (Input.GetMouseButtonDown (0)) {
 				RaycastHit hit;
 				gm.isZoomed = true;
-				var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+
+				
+			if(selectedBone==null)
+					ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 
 
 
 				if (Physics.Raycast (ray, out hit) && hit.collider.tag == "Block") {
-					foreach (GameObject go in blocks) {
+				selectedBone = hit.collider.gameObject;
+				hit.collider.gameObject.layer = 10; //layer 9 e Bone, layer 10 e SelectedBone
+				//pt femur si torace
+				if(hit.collider.gameObject.transform.childCount>0)
+					hit.collider.gameObject.transform.GetChild(0).gameObject.layer = 10;
+		
+
+				Camera.main.cullingMask = Camera.main.cullingMask & ~(1 << 9); //asta face layerul 9 invizibil. operatii pe biti.
+
+				/*	foreach (GameObject go in blocks) {
 						if (go == hit.collider.gameObject) {
 							camPos.x = go.transform.position.x;
 							camPos.y = go.transform.position.y;
@@ -39,6 +55,7 @@ public class Zoom : MonoBehaviour {
 
 						}
 					}
+					*/
 				}
 			}
 		if (gm.isZoomed == true) {

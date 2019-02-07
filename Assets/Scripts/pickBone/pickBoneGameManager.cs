@@ -78,6 +78,8 @@ public class pickBoneGameManager : MonoBehaviour {
 				avaliableQuestions [i] = true;
 			avaliableQuestions [8] = false;
 			avaliableQuestions [6] = false;
+			avaliableQuestions [6] = false;
+
 
 			//scos intrebari care nu sunt valide
 

@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 27440371}
   - component: {fileID: 27440370}
   - component: {fileID: 27440369}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_046
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42354459
 GameObject:
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 42354463}
   - component: {fileID: 42354462}
   - component: {fileID: 42354461}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_071
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -541,12 +541,12 @@ Prefab:
     - target: {fileID: 224197213831597722, guid: 2357d0f931340d244a609e917bac21c7,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -35
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224197213831597722, guid: 2357d0f931340d244a609e917bac21c7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 9
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224197213831597722, guid: 2357d0f931340d244a609e917bac21c7,
         type: 2}
@@ -593,6 +593,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1032286517}
+    - target: {fileID: 1346394892405480, guid: 2357d0f931340d244a609e917bac21c7, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2357d0f931340d244a609e917bac21c7, type: 2}
   m_IsPrefabParent: 0
@@ -615,7 +619,7 @@ GameObject:
   - component: {fileID: 56223342}
   - component: {fileID: 56223341}
   - component: {fileID: 56223340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_040
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -735,7 +739,7 @@ GameObject:
   - component: {fileID: 68398707}
   - component: {fileID: 68398706}
   - component: {fileID: 68398705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_019
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -784,7 +788,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &68398707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1026,7 +1030,7 @@ GameObject:
   - component: {fileID: 136665629}
   - component: {fileID: 136665628}
   - component: {fileID: 136665627}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_006
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1075,7 +1079,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &136665629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1146,7 +1150,7 @@ GameObject:
   - component: {fileID: 149739972}
   - component: {fileID: 149739971}
   - component: {fileID: 149739970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_069
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1334,7 +1338,7 @@ GameObject:
   - component: {fileID: 228715278}
   - component: {fileID: 228715277}
   - component: {fileID: 228715276}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_049
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1454,7 +1458,7 @@ GameObject:
   - component: {fileID: 252003994}
   - component: {fileID: 252003993}
   - component: {fileID: 252003992}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_055
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1573,7 +1577,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 282285686}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cranial_bones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1615,7 +1619,7 @@ GameObject:
   - component: {fileID: 302481394}
   - component: {fileID: 302481393}
   - component: {fileID: 302481392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_042
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1804,7 +1808,7 @@ GameObject:
   - component: {fileID: 344192707}
   - component: {fileID: 344192706}
   - component: {fileID: 344192705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_037
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1924,7 +1928,7 @@ GameObject:
   - component: {fileID: 357469079}
   - component: {fileID: 357469078}
   - component: {fileID: 357469077}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_021
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1973,7 +1977,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &357469079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2044,7 +2048,7 @@ GameObject:
   - component: {fileID: 378902193}
   - component: {fileID: 378902192}
   - component: {fileID: 378902191}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_053
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2164,7 +2168,7 @@ GameObject:
   - component: {fileID: 381985041}
   - component: {fileID: 381985040}
   - component: {fileID: 381985039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_065
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2284,7 +2288,7 @@ GameObject:
   - component: {fileID: 403464928}
   - component: {fileID: 403464927}
   - component: {fileID: 403464926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_073
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2548,7 +2552,7 @@ GameObject:
   - component: {fileID: 418972903}
   - component: {fileID: 418972902}
   - component: {fileID: 418972901}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_025
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2597,7 +2601,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &418972903
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2804,7 +2808,7 @@ GameObject:
   - component: {fileID: 489551806}
   - component: {fileID: 489551805}
   - component: {fileID: 489551804}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_011
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2853,7 +2857,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &489551806
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2998,7 +3002,7 @@ GameObject:
   - component: {fileID: 521500344}
   - component: {fileID: 521500343}
   - component: {fileID: 521500342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_008
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3047,7 +3051,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &521500344
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3194,7 +3198,7 @@ GameObject:
   - component: {fileID: 523830564}
   - component: {fileID: 523830563}
   - component: {fileID: 523830562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_003
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3243,7 +3247,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &523830564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3314,7 +3318,7 @@ GameObject:
   - component: {fileID: 577308863}
   - component: {fileID: 577308862}
   - component: {fileID: 577308861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_017
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3363,7 +3367,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &577308863
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3420,6 +3424,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577308859}
   m_Mesh: {fileID: 4300112, guid: ab6b3374566072747af98d69520a42b1, type: 3}
+--- !u!1 &581384313 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1346394892405480, guid: 2357d0f931340d244a609e917bac21c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 45963384}
 --- !u!1 &593146893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,7 +3443,7 @@ GameObject:
   - component: {fileID: 593146897}
   - component: {fileID: 593146896}
   - component: {fileID: 593146895}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_014
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3483,7 +3492,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &593146897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3554,7 +3563,7 @@ GameObject:
   - component: {fileID: 631368388}
   - component: {fileID: 631368387}
   - component: {fileID: 631368386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_054
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3674,7 +3683,7 @@ GameObject:
   - component: {fileID: 632676094}
   - component: {fileID: 632676093}
   - component: {fileID: 632676092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_020
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3723,7 +3732,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &632676094
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3794,7 +3803,7 @@ GameObject:
   - component: {fileID: 643677844}
   - component: {fileID: 643677843}
   - component: {fileID: 643677842}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hyoid_bone
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4020,7 +4029,7 @@ GameObject:
   - component: {fileID: 662501272}
   - component: {fileID: 662501271}
   - component: {fileID: 662501270}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_048
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4126,6 +4135,71 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662501268}
   m_Mesh: {fileID: 4300050, guid: ab6b3374566072747af98d69520a42b1, type: 3}
+--- !u!1 &681767698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 681767700}
+  - component: {fileID: 681767699}
+  m_Layer: 5
+  m_Name: Point light (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &681767699
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681767698}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &681767700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681767698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.2, y: -9.4, z: -2.6}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &689983490
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,7 +4214,7 @@ GameObject:
   - component: {fileID: 689983494}
   - component: {fileID: 689983493}
   - component: {fileID: 689983492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_016
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4189,7 +4263,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &689983494
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4352,6 +4426,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupToShow: {fileID: 1456370042}
   id: 0
+--- !u!1 &702103189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 702103191}
+  - component: {fileID: 702103190}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &702103190
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702103189}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &702103191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702103189}
+  m_LocalRotation: {x: 0.0651497, y: 0.38772285, z: 0.019667048, w: 0.9192605}
+  m_LocalPosition: {x: -2.6, y: -3.2, z: 17.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 6, y: 46, z: 5}
 --- !u!1 &753864042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4516,7 +4655,7 @@ GameObject:
   - component: {fileID: 819590051}
   - component: {fileID: 819590050}
   - component: {fileID: 819590049}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_015
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4565,7 +4704,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &819590051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4791,7 +4930,7 @@ GameObject:
   - component: {fileID: 1005661926}
   - component: {fileID: 1005661925}
   - component: {fileID: 1005661924}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_033
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4911,7 +5050,7 @@ GameObject:
   - component: {fileID: 1032166394}
   - component: {fileID: 1032166393}
   - component: {fileID: 1032166392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_001
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4960,7 +5099,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1032166394
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5089,7 +5228,7 @@ MonoBehaviour:
   cameraFocusPoint: {fileID: 753864042}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  helpWindow: {fileID: 0}
+  helpWindow: {fileID: 581384313}
 --- !u!114 &1032286518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5119,7 +5258,7 @@ GameObject:
   - component: {fileID: 1039032656}
   - component: {fileID: 1039032655}
   - component: {fileID: 1039032654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_002
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5168,7 +5307,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1039032656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5233,7 +5372,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1058362421}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Facial_bones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5356,7 +5495,7 @@ GameObject:
   - component: {fileID: 1089869703}
   - component: {fileID: 1089869702}
   - component: {fileID: 1089869701}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_009
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5405,7 +5544,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1089869703
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5476,7 +5615,7 @@ GameObject:
   - component: {fileID: 1125781852}
   - component: {fileID: 1125781851}
   - component: {fileID: 1125781850}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_018
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5525,7 +5664,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1125781852
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5596,7 +5735,7 @@ GameObject:
   - component: {fileID: 1129931206}
   - component: {fileID: 1129931205}
   - component: {fileID: 1129931204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_036
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5749,7 +5888,7 @@ GameObject:
   - component: {fileID: 1161843144}
   - component: {fileID: 1161843143}
   - component: {fileID: 1161843142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_022
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5798,7 +5937,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1161843144
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5967,7 +6106,7 @@ GameObject:
   - component: {fileID: 1214533916}
   - component: {fileID: 1214533915}
   - component: {fileID: 1214533914}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_067
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6087,7 +6226,7 @@ GameObject:
   - component: {fileID: 1216978664}
   - component: {fileID: 1216978663}
   - component: {fileID: 1216978662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_041
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6207,7 +6346,7 @@ GameObject:
   - component: {fileID: 1234979857}
   - component: {fileID: 1234979856}
   - component: {fileID: 1234979855}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_013
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6256,7 +6395,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1234979857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6327,7 +6466,7 @@ GameObject:
   - component: {fileID: 1243439940}
   - component: {fileID: 1243439939}
   - component: {fileID: 1243439938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_023
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6376,7 +6515,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1243439940
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6447,7 +6586,7 @@ GameObject:
   - component: {fileID: 1244389836}
   - component: {fileID: 1244389835}
   - component: {fileID: 1244389834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_027
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6496,7 +6635,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1244389836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6635,7 +6774,7 @@ GameObject:
   - component: {fileID: 1275820004}
   - component: {fileID: 1275820003}
   - component: {fileID: 1275820002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_004
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6684,7 +6823,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1275820004
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6755,7 +6894,7 @@ GameObject:
   - component: {fileID: 1294635119}
   - component: {fileID: 1294635118}
   - component: {fileID: 1294635117}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_039
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6975,7 +7114,7 @@ GameObject:
   - component: {fileID: 1322330188}
   - component: {fileID: 1322330187}
   - component: {fileID: 1322330186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_028
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7024,7 +7163,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1322330188
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7095,7 +7234,7 @@ GameObject:
   - component: {fileID: 1372035614}
   - component: {fileID: 1372035613}
   - component: {fileID: 1372035612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_061
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7215,7 +7354,7 @@ GameObject:
   - component: {fileID: 1394317618}
   - component: {fileID: 1394317617}
   - component: {fileID: 1394317616}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_026
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7264,7 +7403,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1394317618
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7495,6 +7634,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupToShow: {fileID: 282285685}
   id: 0
+--- !u!1 &1427591444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1427591446}
+  - component: {fileID: 1427591445}
+  m_Layer: 5
+  m_Name: Point light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1427591445
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427591444}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1427591446
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427591444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.2, y: -9.4, z: -2.6}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456370042
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,7 +7707,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1456370043}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Denture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7565,7 +7769,7 @@ GameObject:
   - component: {fileID: 1460110201}
   - component: {fileID: 1460110200}
   - component: {fileID: 1460110199}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_044
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7818,7 +8022,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1537022305}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7859,7 +8063,7 @@ GameObject:
   - component: {fileID: 1559597371}
   - component: {fileID: 1559597370}
   - component: {fileID: 1559597369}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_050
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8113,7 +8317,7 @@ GameObject:
   - component: {fileID: 1605237984}
   - component: {fileID: 1605237983}
   - component: {fileID: 1605237982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_024
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8162,7 +8366,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1605237984
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8233,7 +8437,7 @@ GameObject:
   - component: {fileID: 1632219562}
   - component: {fileID: 1632219561}
   - component: {fileID: 1632219560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_058
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8353,7 +8557,7 @@ GameObject:
   - component: {fileID: 1654109568}
   - component: {fileID: 1654109567}
   - component: {fileID: 1654109566}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_012
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8402,7 +8606,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1654109568
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8655,7 +8859,7 @@ GameObject:
   - component: {fileID: 1797374674}
   - component: {fileID: 1797374673}
   - component: {fileID: 1797374672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_010
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8704,7 +8908,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1797374674
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8849,7 +9053,7 @@ GameObject:
   - component: {fileID: 1836569295}
   - component: {fileID: 1836569294}
   - component: {fileID: 1836569293}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_007
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8898,7 +9102,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &1836569295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8969,7 +9173,7 @@ GameObject:
   - component: {fileID: 1913868025}
   - component: {fileID: 1913868024}
   - component: {fileID: 1913868023}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_043
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9145,7 +9349,7 @@ GameObject:
   - component: {fileID: 1921653848}
   - component: {fileID: 1921653847}
   - component: {fileID: 1921653846}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_072
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9404,7 +9608,7 @@ GameObject:
   - component: {fileID: 2023693973}
   - component: {fileID: 2023693972}
   - component: {fileID: 2023693971}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_005
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9453,7 +9657,7 @@ MonoBehaviour:
   db: {fileID: 0}
   boneName: {fileID: 510332327}
   description: {fileID: 1804580831}
-  id: 0
+  id: 97
 --- !u!64 &2023693973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9647,7 +9851,7 @@ GameObject:
   - component: {fileID: 2079312179}
   - component: {fileID: 2079312178}
   - component: {fileID: 2079312177}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: grp1_051
   m_TagString: Block
   m_Icon: {fileID: 0}

@@ -14,10 +14,18 @@ public class Menu : MonoBehaviour {
 	}
 
 	public void backToSkeleton() {
-		
-		foreach (GameObject go in Zoom.blocks) {
+
+		Camera.main.cullingMask = Camera.main.cullingMask | (1 << 9); //reafiseaza layerul Bones
+
+		//pt femur si torace
+		if (Zoom.selectedBone.transform.childCount > 0)
+			Zoom.selectedBone.gameObject.transform.GetChild (0).gameObject.layer = 9;
+		//reset layer os selectat anterior
+		Zoom.selectedBone.layer = 9;
+		Zoom.selectedBone = null;
+	/*	foreach (GameObject go in Zoom.blocks) {
 			go.SetActive (true);
-		}
+		} */
 			//Debug.Log (go.name);
 			cameraFocusPoint.transform.position = new Vector3 (0.02f, -0.14f, 0.53320f);
 			boneName.text = "Numele Osului";
@@ -37,4 +45,5 @@ public class Menu : MonoBehaviour {
 	{
 		helpWindow.SetActive (false);
 	}
+
 }

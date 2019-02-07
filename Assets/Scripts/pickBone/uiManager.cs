@@ -8,7 +8,7 @@ public class uiManager : MonoBehaviour {
 
 	public pickBoneGameManager gm;
 	public Text skipBtnText;
-
+	public GameObject helpWindow;
 	void Start()
 	{
 		gm = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<pickBoneGameManager> ();
@@ -37,10 +37,16 @@ public class uiManager : MonoBehaviour {
 	public void showCorrectBone()
 	{
 		Debug.Log (pickBoneGameManager.currentBoneId.ToString ());
-		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<MeshRenderer> ().material.color = Color.yellow;
+		Camera.main.transform.LookAt (pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].gameObject.GetComponent<Transform> ());
+		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<MeshRenderer> ().material.color = Color.cyan;
 		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<MeshCollider> ().enabled = false;
 
-		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<onBoneClick>().m_OriginalColor = Color.yellow;
+		pickBoneGameManager.bonesArray [pickBoneGameManager.currentBoneId].GetComponent<onBoneClick> ().m_OriginalColor = Color.cyan;
 	
+	}
+
+	public void setHelpWindow(bool val)
+	{
+		helpWindow.SetActive (val);
 	}
 }

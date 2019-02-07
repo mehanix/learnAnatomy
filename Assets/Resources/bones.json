@@ -12,7 +12,7 @@
  },
  {
    "Id": "2",
-   "boneName": "Oasele soldului",
+   "boneName": "Oasele coxale",
    "description": "Articulatia coxofemurala este o articulatie sinoviala sferoida ce leaga capul femural de osul coxal (bazin). Oasele de la acest nivel se articuleaza in cavitatea articulara. Aceasta este acoperita cu un strat de cartilaj hialin, cartilaj articular, care acopera oasele cu un strat neted, reducand in acest fel frictiunea din timpul miscarilor si de asemenea amortizeaza si socurile."
  },
  {
@@ -37,8 +37,8 @@
  },
  {
    "Id": "7",
-   "boneName": "Cutia Toracica",
-   "description": "Cavitatea toracica este formata de articularea coastelor cu sternul si coloanal vertebrala. Aceasta are aspect de trunchi de con, turtit antero-posterior. Coastele sunt in numar de 12 arcuri. Fiecare coasta e alcatuita din os costal si cartilaj costal. Coastele sunt clasificate dupa modul de prindere de stern in 3 categorii: coaste adevarate(primele 7 perechi, se articuleaza cu sternul prin intermediul propriului cartilaj), coaste false (ultimele 5 perechi, primele 3 se articuleaza cu sternul prin intermediul coastei VII, ultimele 2 nu se articuleaza, numindu-se coaste flotante)."
+   "boneName": "Coastele",
+   "description": "Coastele sunt in numar de 12 arcuri. Fiecare coasta e alcatuita din os costal si cartilaj costal. Coastele sunt clasificate dupa modul de prindere de stern in 3 categorii: coaste adevarate(primele 7 perechi, se articuleaza cu sternul prin intermediul propriului cartilaj), coaste false (ultimele 5 perechi, primele 3 se articuleaza cu sternul prin intermediul coastei VII, ultimele 2 nu se articuleaza, numindu-se coaste flotante). Pe model sunt expuse coastele, fara cartilagiu."
  },
  {
    "Id": "8",
@@ -484,6 +484,11 @@
    "Id": "96",
    "boneName": "Mandibula",
    "description": "Mandibula sau maxilarul inferior este un os median si nepereche situat in partea inferioara a fetei; este singurul os mobil al scheletului visceral. Mandibula este formata din doua jumatati simetrice, independente la fat si sudate pe linia mediana la adult. Prezinta un corp si doua ramuri. Corpul in forma de potcoava are 2 fete (externa, interna), 2 portiuni (superioara - portiunea alveolara, inferioara - baza mandibulei) si 2 margini (inferioara, superioara); pe marginea superioara (arcada alveolara inferioara) se afla dintii mandibulari."
+ },
+ {
+   "Id": "97",
+   "boneName": "Dinte",
+	"description":"Acesta este un dinte, parte a danturii umane. Dintii sunt destinati indeosebi la taierea, zdrobirea si macinarea alimentelor. Mai multe informatii despre acestia vor fi adaugate in viitor. " 
  }
 ]
 }
