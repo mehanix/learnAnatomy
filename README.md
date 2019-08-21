@@ -1,11 +1,9 @@
 
 <h1 align="center">learnAnatomy</h1>
 <p align="right"><i>Educational software that helps students learn the structure of the human skeleton</i></p>
+<p align="right"> <a href="https://www.youtube.com/watch?v=4brnc9oPYC8">Vezi learnAnatomy in actiune aici! </a> </p>
+
 </br>
-<img src="https://i.imgur.com/0E7gyfF.png"></img>
-<p><b>LearnAnatomy</b> este un software educational destinat elevilor de liceu. El a fost creat in scopul studiului individual, ca suport de curs pentru materia de clasa a XI-a la biologie.</p>
-</br>
-<img src="https://i.imgur.com/VIY3GMr.png"></img>
 
  Software-ul are doua sectiuni, de invatare si de verificare a cunostintelor.
 </br>
