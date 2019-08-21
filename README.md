@@ -5,6 +5,11 @@
 
 </br>
 
+<img src="https://i.imgur.com/0E7gyfF.png"></img>
+<p><b>LearnAnatomy</b> este un software educational destinat elevilor de liceu. El a fost creat in scopul studiului individual, ca suport de curs pentru materia de clasa a XI-a la biologie.</p>
+</br>
+<img src="https://i.imgur.com/VIY3GMr.png"></img>
+
  Software-ul are doua sectiuni, de invatare si de verificare a cunostintelor.
 </br>
 <p>Sectiunea de invatare prezinta, in 3D, scheletul uman, cu posibilitatea rotirii, maririi/micsorarii lui. Grupele de oase vizibile pot fi activate/dezactivate. La apasarea pe un os, elevul primeste informatii despre acesta, si il poate vizualiza in detaliu.
