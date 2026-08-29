@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour {
 	public Text boneName;
 	public Text description;
 	public GameObject helpWindow;
+    public GameObject backButton;
+
 	public void backToMenu() {
 		SceneManager.LoadScene ("menu");
 	}
@@ -31,7 +33,7 @@ public class Menu : MonoBehaviour {
 			boneName.text = "Numele Osului";
 			description.text = "Informatiile despre osul selectat vor aparea aici :)";
 			gameObject.SetActive (false);
-		
+            backButton.SetActive(false);
 
 
 	}

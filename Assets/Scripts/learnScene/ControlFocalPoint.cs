@@ -34,6 +34,6 @@ public class ControlFocalPoint : MonoBehaviour {
 
 		rb.AddForce (movement * speed);
 		if (Input.anyKeyDown == false)
-			rb.velocity = Vector3.zero;
+			rb.linearVelocity = Vector3.zero;
 	}
 }

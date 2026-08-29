@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: 2c07640cebcdd1f40be6e26e8d34b8d7
-timeCreated: 1523783827
-licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
+  defaultReferences:
+  - db: {instanceID: 0}
+  - boneName: {instanceID: 0}
+  - description: {instanceID: 0}
+  - backBtn: {fileID: 1480926363069750, guid: 9f379604c6e1aaf4aa3d6445841c986d, type: 3}
+  executionOrder: -50
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

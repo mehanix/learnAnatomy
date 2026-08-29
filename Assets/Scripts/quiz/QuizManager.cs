@@ -63,7 +63,12 @@ public class QuizManager : MonoBehaviour {
 			answered [i] = false;
 		score = 0;
 		scoreLabel.text = "Scor: 0/10";
-	}
+        ans0.isOn = false;
+        ans1.isOn = false;
+        ans2.isOn = false;
+
+
+    }
 
 	public void sendAnswer()
 	{
