@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,29 +14,38 @@ public class ShowBoneInfo : MonoBehaviour {
 	string sceneName;
 	public GameObject backBtn;
 	void Start() {
-		
-		db = GameObject.FindGameObjectWithTag("GameManager").GetComponent<BoneDbHandler> ();
+		GameObject gm = GameObject.FindGameObjectWithTag("GameManager");
+		if (gm != null)
+			db = gm.GetComponent<BoneDbHandler>();
 
-		boneName = GameObject.FindGameObjectWithTag("boneNameText").GetComponent<Text>();
-		if(GameObject.FindGameObjectWithTag ("descriptionText")!=null)
-			description = GameObject.FindGameObjectWithTag ("descriptionText").GetComponent<Text>();
-		sceneName = SceneManager.GetActiveScene ().name;
-        backBtn.SetActive(false);
-    }
+		GameObject nameObj = GameObject.FindGameObjectWithTag("boneNameText");
+		if (nameObj != null)
+			boneName = nameObj.GetComponent<Text>();
+
+		GameObject descObj = GameObject.FindGameObjectWithTag("descriptionText");
+		if (descObj != null)
+			description = descObj.GetComponent<Text>();
+
+		sceneName = SceneManager.GetActiveScene().name;
+		if (backBtn != null)
+			backBtn.SetActive(false);
+	}
 
 
 	void OnMouseDown(){
-		if (sceneName == "playScene" || sceneName=="learnSkull") {
-			boneName.text = db.bonesArray.boneEntries [id].boneName;
-			description.text = db.bonesArray.boneEntries [id].description;	
-			backBtn.SetActive (true);
+		if ((sceneName == "playScene" || sceneName == "learnSkull") && db != null && boneName != null) {
+			boneName.text = db.bonesArray.boneEntries[id].boneName;
+			if (description != null)
+				description.text = db.bonesArray.boneEntries[id].description;	
+			if (backBtn != null)
+				backBtn.SetActive(true);
 		}
 	
 	}
 
 	void OnMouseEnter() {
-		if (sceneName == "playScene" || sceneName=="learnSkull") {
-			boneName.text = db.bonesArray.boneEntries [id].boneName;
+		if ((sceneName == "playScene" || sceneName == "learnSkull") && db != null && boneName != null) {
+			boneName.text = db.bonesArray.boneEntries[id].boneName;
 		}
 	}
 }

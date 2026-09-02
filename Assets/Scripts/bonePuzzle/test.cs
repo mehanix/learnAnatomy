@@ -1,9 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class test : MonoBehaviour {
 	public GameObject firstGameObject, secondGameObject;
+
 	// Use this for initialization
 	void Start () {
 	}
@@ -15,17 +16,19 @@ public class test : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other)
 	{
-		if (gameObject.GetComponent<Rigidbody> () != null) {
-			Debug.Log (gameObject.name + " " + other.gameObject.name);
+		if (gameObject.GetComponent<Rigidbody>() != null) {
+			Debug.Log(gameObject.name + " collided with " + other.gameObject.name);
 			if (gameObject.name == other.gameObject.name) {
-				other.gameObject.GetComponent<MeshRenderer> ().enabled = true;
-				//other.gameObject.transform.localScale = new Vector3 (1f, 1f, 1f);
-				other.gameObject.GetComponent<SphereCollider> ().enabled = false;
+				MeshRenderer mr = other.gameObject.GetComponent<MeshRenderer>();
+				if (mr != null)
+					mr.enabled = true;
 
-				Destroy (this.gameObject);
-		
-		}
-	
+				SphereCollider sc = other.gameObject.GetComponent<SphereCollider>();
+				if (sc != null)
+					sc.enabled = false;
+
+				Destroy(this.gameObject);
+			}
 		}
 	}
 }
